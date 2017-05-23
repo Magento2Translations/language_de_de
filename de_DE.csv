@@ -2516,6 +2516,7 @@ Total,Gesamtsumme,module,Magento_Multishipping
 "Create Shipping Address","Lieferanschrift anlegen",module,Magento_Multishipping
 "Data saving problem","Daten konnten nicht gespeichert werden",module,Magento_Multishipping
 "We cannot open the overview page.","Die Übersichtsseite kann nicht geöffnet werden.",module,Magento_Multishipping
+"Please agree to all Terms and Conditions before placing the order.","Bitte akzeptieren Sie alle Geschäftsbedingungen bevor Sie Ihre Bestellung aufgeben.",module,Magento_Multishipping
 "Order place error","Fehler beim Aufgeben der Bestellung",module,Magento_Multishipping
 "Please specify a payment method.","Bitte bestimmen Sie eine Zahlungsmethode.",module,Magento_Multishipping
 "Shipping Information",Versandinformation,module,Magento_Multishipping
@@ -2866,6 +2867,8 @@ Continue,Fortsetzen,module,Magento_Paypal
 "Price change alert! We wanted you to know that prices have changed for these products:","Preisänderungshinweis! Wir möchten Sie darüber informieren, dass die Preise der folgenden Produkte geändert haben:",module,Magento_ProductAlert
 Price:,Preis:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Alle Preis-Benachrichtigungen abbestellen",module,Magento_ProductAlert
+"In stock alert! We wanted you to know that these products are now available:","Hinweis zum Lagerbestand! Wir möchten Sie darüber informieren, dass diese Produkte jetzt verfügbar sind:",module,Magento_ProductAlert
+"Unsubscribe from all stock alerts","Alle Bestandsbenachrichtigungen abbestellen",module,Magento_ProductAlert
 Url,URL,module,Magento_ProductVideo
 Title,Titel,module,Magento_ProductVideo
 Description,Beschreibung,module,Magento_ProductVideo
@@ -3145,6 +3148,7 @@ is,ist,module,Magento_Rule
 "greater than","größer als",module,Magento_Rule
 "less than","weniger als",module,Magento_Rule
 contains,enthält,module,Magento_Rule
+"does not contain","enthält nicht",module,Magento_Rule
 "is one of","kleiner als",module,Magento_Rule
 Add,Hinzufügen,module,Magento_Rule
 Remove,Entfernen,module,Magento_Rule
@@ -3257,6 +3261,7 @@ Billing,Rechnungstellung,module,Magento_Sales
 Cancel,Speichern,module,Magento_Sales
 "Billing Address",Rechnungsadresse,module,Magento_Sales
 "Payment Method",Zahlungsart,module,Magento_Sales
+"Order Comment",Kommentar,module,Magento_Sales
 Coupons,Gutscheine,module,Magento_Sales
 "Account Information",Kontoinformation,module,Magento_Sales
 From,Von,module,Magento_Sales
@@ -3556,7 +3561,9 @@ Reports,Berichte,module,Magento_Search
 "No more than %1 emails can be sent at a time.","Es können nur %1 E-Mails zugleich gesendet werden.",module,Magento_SendFriend
 "Please define a correct product instance.","Bitte geben Sie eine korrekte Produkt-Instanz an.",module,Magento_SendFriend
 "Invalid Sender Information","Ungültige Absenderinformationen",module,Magento_SendFriend
+"Please define the correct sender information.","Bitte geben Sie korrekte Absenderinformationen an.",module,Magento_SendFriend
 "IP Address","IP Adresse",module,Magento_SendFriend
+"Cookie (unsafe)","Cookie (unsicher)",module,Magento_SendFriend
 Remove,Entfernen,module,Magento_SendFriend
 Email,E-Mail,module,Magento_SendFriend
 "* Required Fields","* Pflichtfelder",module,Magento_SendFriend
@@ -3721,6 +3728,7 @@ All,Alle,module,Magento_Sitemap
 "All Store Views","Alle Ladenansichte",module,Magento_Store
 "-- Please Select --","--Bitte auswählen--",module,Magento_Store
 Admin,Administrator,module,Magento_Store
+"Default website is not defined","Standardwebsite ist nicht definiert",module,Magento_Store
 Language,Sprache,module,Magento_Store
 "Swatch Helper: not valid parameter for product instantiation","Muster-Helfer: ungültiger Parameter für Artikel-Instanziierung",module,Magento_Swatches
 "Admin is a required field in the each row","Admin ist in jeder Zeile ein erforderliches Feld",module,Magento_Swatches
@@ -3834,6 +3842,7 @@ Themes,Begrüßungstext,module,Magento_Theme
 "Theme: %1","Thema: %1",module,Magento_Theme
 "New Theme","Neues Thema",module,Magento_Theme
 "Custom CSS","Benutzerdefiniertes CSS",module,Magento_Theme
+"Select CSS File to Upload","CSS-Datei zum Hochladen auswählen",module,Magento_Theme
 "Upload CSS File","CSS Datei hochladen",module,Magento_Theme
 "Download CSS File","CSS-Datei herunterladen",module,Magento_Theme
 Manage,Verwalten,module,Magento_Theme
