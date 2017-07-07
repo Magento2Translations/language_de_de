@@ -3249,6 +3249,7 @@ Overview,Übersicht,module,Magento_Catalog
 "Display Cart Summary","Warenkorbzusammenfassung anzeigen",module,Magento_Checkout
 "Shopping Cart Sidebar",Warenkorb-Sidebar,module,Magento_Checkout
 "Display Shopping Cart Sidebar","Warenkorb-Sidebar anzeigen",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","Maximale Anzahl der kürzlich hinzugefügten Artikel",module,Magento_Checkout
 "Payment Failed Emails","E-Mails über fehlgeschlagene Zahlung",module,Magento_Checkout
 "Payment Failed Email Sender","Absender der E-Mails über fehlgeschlagene Zahlung",module,Magento_Checkout
 "Payment Failed Email Receiver","Empfänger der E-Mails über fehlgeschlagene Zahlung",module,Magento_Checkout
