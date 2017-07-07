@@ -4205,6 +4205,8 @@ Page,Seite,module,Magento_Widget
 "Please enter a valid email address.","Bitte geben Sie eine gültige E-Mail-Adresse an.",module,Magento_Wishlist
 "Your wish list has been shared.","Ihre Wunschliste wurde geteilt.",module,Magento_Wishlist
 "%1 has been updated in your Wish List.","%1 wurde in Ihrer Wunschliste erneuert.",module,Magento_Wishlist
+"We can't update your Wish List right now.","Die Wunschliste konnte nicht aktualisiert werden.",module,Magento_Wishlist
+"The requested Wish List doesn't exist.","Die angeforderte Wunschliste existiert nicht.",module,Magento_Wishlist
 "We can't create the Wish List right now.","Wir können die Wunschliste gerade nicht erstellen.",module,Magento_Wishlist
 "%1 items","%1 Artikel",module,Magento_Wishlist
 "1 item","1 Artikel",module,Magento_Wishlist
@@ -4695,6 +4697,7 @@ Overview,Übersicht,module,Magento_Catalog
 "Display Cart Summary","Warenkorbzusammenfassung anzeigen",module,Magento_Checkout
 "Shopping Cart Sidebar",Warenkorb-Sidebar,module,Magento_Checkout
 "Display Shopping Cart Sidebar","Warenkorb-Sidebar anzeigen",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","Maximale Anzahl der kürzlich hinzugefügten Artikel",module,Magento_Checkout
 "Payment Failed Emails","E-Mails über fehlgeschlagene Zahlung",module,Magento_Checkout
 "Payment Failed Email Sender","Absender der E-Mails über fehlgeschlagene Zahlung",module,Magento_Checkout
 "Payment Failed Email Receiver","Empfänger der E-Mails über fehlgeschlagene Zahlung",module,Magento_Checkout
