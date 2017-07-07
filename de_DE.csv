@@ -1072,6 +1072,7 @@ Search,Suche,module,Magento_Catalog
 "Multiple Select","Mehrfach Auswahl",module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 erweitert nicht \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as",Ab,module,Magento_Catalog
+test,Test,module,Magento_Catalog
 message,Nachricht,module,Magento_Catalog
 Images,Bilder,module,Magento_Catalog
 Select...,"Bitte wählen...",module,Magento_Catalog
@@ -1081,6 +1082,7 @@ To,Bis,module,Magento_Catalog
 Done,Fertig,module,Magento_Catalog
 "Add Selected","Ausgewählte hinzufügen",module,Magento_Catalog
 "Select Attribute","Attribute auswählen",module,Magento_Catalog
+"Create New Attribute","Neues Attribut erstellen",module,Magento_Catalog
 "Add Option","Option Hinzufügen",module,Magento_Catalog
 "New Option","Neue Option",module,Magento_Catalog
 "Select Product","Artikel auswählen",module,Magento_Catalog
@@ -1822,6 +1824,7 @@ Customers,Kunden,module,Magento_Customer
 "-- Please Select --","--Bitte auswählen--",module,Magento_Customer
 "The password can not begin or end with a space.","Das Passwort kann nicht mit einem Leerzeichen beginnen oder enden.",module,Magento_Customer
 Admin,Administrator,module,Magento_Customer
+"Unable to create directory %1.","Verzeichnis %1 konnte nicht erstellt werden.",module,Magento_Customer
 """%1"" invalid type entered.","""%1"" Ungültiger Typ eingegeben.",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" enthält nicht alphabetische oder nicht numerische Zeichen.",module,Magento_Customer
 """%1"" is an empty string.","""%1"" ist eine leere Zeichenfolge.",module,Magento_Customer
@@ -4051,6 +4054,7 @@ username,Benutzername,module,Magento_User
 "Your password must include both numeric and alphabetic characters.","Ihr Passwort muss sowohl numerische als auch alphabetische Zeichen enthalten.",module,Magento_User
 "Your password confirmation must match your password.","Ihr Passwort Bestätigung muss mit Ihrem Passwort übereinstimmen.",module,Magento_User
 "It's time to change your password.","Es ist Zeit Ihr Passwort zu ändern.",module,Magento_User
+"It's time to <a href=""%1"">change your password</a>.","Es ist Zeit <a href=""%1"">Ihr Passwort zu ändern</a>.",module,Magento_User
 "Your password has expired; please contact your administrator.","Ihr Kennwort ist abgelaufen. Bitte kontaktieren Sie Ihren Administrator.",module,Magento_User
 "Password Help","Passwort Hilfe",module,Magento_User
 "Enter your email address.  You will receive an email with a link to reset your password.","Geben Sie Ihre E-Mail-Adresse ein.  Sie erhalten in Kürze eine E-Mail zum Zurücksetzen Ihres Passworts.",module,Magento_User
@@ -4245,6 +4249,8 @@ Page,Seite,module,Magento_Widget
 "Please enter a valid email address.","Bitte geben Sie eine gültige E-Mail-Adresse an.",module,Magento_Wishlist
 "Your wish list has been shared.","Ihre Wunschliste wurde geteilt.",module,Magento_Wishlist
 "%1 has been updated in your Wish List.","%1 wurde in Ihrer Wunschliste erneuert.",module,Magento_Wishlist
+"We can't update your Wish List right now.","Die Wunschliste konnte nicht aktualisiert werden.",module,Magento_Wishlist
+"The requested Wish List doesn't exist.","Die angeforderte Wunschliste existiert nicht.",module,Magento_Wishlist
 "We can't create the Wish List right now.","Wir können die Wunschliste gerade nicht erstellen.",module,Magento_Wishlist
 "%1 items","%1 Artikel",module,Magento_Wishlist
 "1 item","1 Artikel",module,Magento_Wishlist
@@ -4369,6 +4375,7 @@ Next,Weiter,module,Magento_Checkout
 "Email: %email","E-Mail: %email",module,Magento_Contact
 "Phone Number: %telephone","Telefonnummer: %telephone",module,Magento_Contact
 "Comment: %comment","Kommentar: %comment",module,Magento_Contact
+"Welcome to %store_name","Willkommen bei %store_name",module,Magento_Customer
 "Welcome to %store_name.","Willkommen bei %store_name.",module,Magento_Customer
 Email:,E-Mail:,module,Magento_Customer
 Password:,Passwort:,module,Magento_Customer
