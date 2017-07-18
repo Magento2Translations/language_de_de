@@ -1,3 +1,37 @@
+"Read Details","Details anzeigen",module,Magento_AdminNotification
+"Mark as Read","Als gelesen markieren",module,Magento_AdminNotification
+"Are you sure?","Sind Sie sicher?",module,Magento_AdminNotification
+Remove,Entfernen,module,Magento_AdminNotification
+"Messages Inbox",Posteingang,module,Magento_AdminNotification
+"You have %1 new system messages","Sie haben %1 neue System-Nachrichten",module,Magento_AdminNotification
+"You have %1 new system message","Sie haben %1 neue System-Nachricht",module,Magento_AdminNotification
+"Incoming Message","Eingehende Nachricht",module,Magento_AdminNotification
+close,schließen,module,Magento_AdminNotification
+Notifications,Benachrichtigungen,module,Magento_AdminNotification
+"The message has been marked as Read.","Die Nachricht wurde als gelesen markiert.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","Leider konnte die Nachricht aufgrund eines Fehlers nicht als gelesen markiert werden.",module,Magento_AdminNotification
+"Please select messages.","Bitte Nachrichten auswählen.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","Insgesamt wurden %1 Einträge als gelesen markiert.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Insgesamt wurden %1 Einträge entfernt.",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.","Wir konnten die Nachrichten aufgrund eines Fehlers nicht entfernen.",module,Magento_AdminNotification
+"The message has been removed.","Die Nachricht wurde gelöscht.",module,Magento_AdminNotification
+"1 Hour","1 Stunde",module,Magento_AdminNotification
+"2 Hours","2 Stunden",module,Magento_AdminNotification
+"6 Hours","6 Stunden",module,Magento_AdminNotification
+"12 Hours","12 Stunden",module,Magento_AdminNotification
+"24 Hours","24 Stunden",module,Magento_AdminNotification
+critical,kritischen,module,Magento_AdminNotification
+major,haupt,module,Magento_AdminNotification
+minor,neben,module,Magento_AdminNotification
+notice,notiz,module,Magento_AdminNotification
+"Wrong message type","Falscher Message-Typ",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Bitte öffnen Sie die <a href=""%1""> Cache-Verwaltung</a> und aktualisieren Sie diese.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","Synchronisierung der Media-Storages ist abgeschlossen.",module,Magento_AdminNotification
+"Close popup","Popup schließen",module,Magento_AdminNotification
+Close,Schließen,module,Magento_AdminNotification
+"Critical System Messages","Kritische Systemmeldungen",module,Magento_AdminNotification
+"Major System Messages","Wichtige Systemmeldungen",module,Magento_AdminNotification
+"System messages",Systemmeldungen,module,Magento_AdminNotification
 "You created the order.","Sie haben die Bestellung erstellt.",module,Magento_Authorizenet
 "Order saving error: %1","Fehler beim Speichern der Bestellung: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Bitte wählen Sie eine Zahlungsmethode.",module,Magento_Authorizenet
@@ -258,6 +292,47 @@ Actions,Aktionen,module,Magento_Backend
 "Unselect Visible","Sichtbare abwählen",module,Magento_Backend
 "The information in this tab has been changed.","Die Informationen in diesem Tab wurden geändert.",module,Magento_Backend
 Loading...,"Wird geladen …",module,Magento_Backend
+"System Backup",Systemsicherung,module,Magento_Backup
+"Database and Media Backup","Datenbank- und Mediensicherung",module,Magento_Backup
+"Database Backup",Datenbanksicherung,module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Das Archiv kann mit <a href=""%1"">%2</a> auf Windows-Systemen dekomprimiert werden.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","Sie benötigen weitere Berechtigungen um den Wartungsmodus jetzt zu aktivieren.",module,Magento_Backup
+"You need more free space to create a backup.","Sie brauchen mehr freien Speicherplatz, um eine Sicherung zu erstellen.",module,Magento_Backup
+"You need more permissions to create a backup.","Sie benötigen weitere Berechtigungen zum Erstellen einer Sicherung.",module,Magento_Backup
+Backups,Sicherungen,module,Magento_Backup
+Tools,Werkzeuge,module,Magento_Backup
+Backup,Sicherung,module,Magento_Backup
+failed,fehlgeschlagen,module,Magento_Backup
+successful,erfolgreich,module,Magento_Backup
+"Please correct the password.","Bitte korrigieren Sie das Passwort.",module,Magento_Backup
+Database,Datenbank,module,Magento_Backup
+"Database and Media","Datenbank und Medien",module,Magento_Backup
+"System (excluding Media)","System (ausgenommen Medien)",module,Magento_Backup
+"Please correct the order of creation for a new backup.","Bitte korrigieren Sie die Erstellungsreihenfolge für eine neue Sicherung.",module,Magento_Backup
+"The backup file does not exist.","Die Sicherungsdatei ist nicht vorhanden.",module,Magento_Backup
+"The backup file path was not specified.","Der Pfad der Sicherungsdatei wurde nicht angegeben.",module,Magento_Backup
+"The backup file ""%1"" does not exist.","Die Sicherungsdatei ""%1"" ist nicht vorhanden.",module,Magento_Backup
+"Sorry, but we cannot read from or write to backup file ""%1"".","Entschuldigung, aber die Sicherungsdatei ""%1"" kann weder gelesen noch beschrieben werden.",module,Magento_Backup
+"The backup file handler was unspecified.","Der Sicherungsdatei-Handler wurde nicht spezifiziert.",module,Magento_Backup
+"Are you sure you want to continue?","Sind Sie sicher, dass Sie fortfahren möchten?",module,Magento_Backup
+"This may take a few moments.","Die kann einige Augenblicke dauern.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","Bitte versetzen Sie Ihren Store während der Sicherung in den Wartungsmodus.",module,Magento_Backup
+"Backup Name","Name der Sicherung",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Bitte verwenden Sie nur Buchstaben (a-z und A-Z), Zahlen (0-9) oder Leerzeichen in diesem Feld.",module,Magento_Backup
+"Maintenance mode",Wartungsmodus,module,Magento_Backup
+"Please put your store into maintenance mode during backup.","Bitte versetzen Sie Ihren Store während der Sicherung in den Wartungsmodus.",module,Magento_Backup
+"Exclude media folder from backup","Medienordner von Sicherung ausschließen",module,Magento_Backup
+"Please enter the password to confirm rollback.","Bitte geben Sie ihr Passwort ein, um den Rollback zu bestätigen.",module,Magento_Backup
+"This action cannot be undone.","Diese Aktion kann nicht rückgängig gemacht werden.",module,Magento_Backup
+"User Password",Benutzerkennwort,module,Magento_Backup
+"Please put your store into maintenance mode during rollback processing.","Bitte aktivieren Sie den Wartungsmodus während des Rollbacks.",module,Magento_Backup
+"Use FTP Connection","FTP-Verbindung verwenden",module,Magento_Backup
+"FTP credentials",FTP-Anmeldeinformationen,module,Magento_Backup
+"FTP Host",FTP-Server,module,Magento_Backup
+"FTP Login",FTP-Benutzername,module,Magento_Backup
+"FTP Password",FTP-Kennwort,module,Magento_Backup
+"Magento root directory",Magento-Root-Verzeichnis,module,Magento_Backup
+"Create Backup","Backup erstellen",module,Magento_Backup
 Country,Land,module,Magento_Braintree
 "Allowed Credit Card Types","Zulässige Kreditkartentypen",module,Magento_Braintree
 "Add Rule","Regel hinzufügen",module,Magento_Braintree
@@ -379,6 +454,25 @@ Always,Immer,module,Magento_Captcha
 "Please type the letters below","Geben Sie bitte die unten stehenden Buchstaben ein",module,Magento_Captcha
 "Custom options have different types.","Benutzerdefinierte Optionen haben unterschiedliche Typen.",module,Magento_CatalogImportExport
 "Please correct the parameters.","Bitte korrigiere die Eingabe.",module,Magento_CatalogImportExport
+"ALL GROUPS","Nicht auf Lager",module,Magento_CatalogInventory
+"Customer Group",Kundengruppe,module,Magento_CatalogInventory
+"Minimum Qty","Der Lagerbestand des Artikels ist ungültig",module,Magento_CatalogInventory
+"Add Minimum Qty","Mindestmenge hinzufügen",module,Magento_CatalogInventory
+"This product is out of stock.","Dieses Produkt ist nicht auf Lager.",module,Magento_CatalogInventory
+"Undefined product type","Undefinierter Produkttyp",module,Magento_CatalogInventory
+"%1 is not a correct comparison method.","%1 ist keine richtige Vergleichsmethode.",module,Magento_CatalogInventory
+"No Backorders","Keine Backorders",module,Magento_CatalogInventory
+"Allow Qty Below 0","Menge unter 0 zulassen",module,Magento_CatalogInventory
+"Allow Qty Below 0 and Notify Customer","Menge unter 0 zulassen und Kunden informieren",module,Magento_CatalogInventory
+"In Stock","Auf Lager",module,Magento_CatalogInventory
+"Out of Stock","Nicht auf Lager",module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","Nicht alle Ihrer ausgewählten Produkte sind in der gewünschten Menge verfügbar.",module,Magento_CatalogInventory
+"The fewest you may purchase is %1.","Das Minimum, welches Sie kaufen können ist %1.",module,Magento_CatalogInventory
+"Please correct the quantity for some products.","Bitte korrigieren Sie die Menge bei einigen Produkten.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Das Maximum, welches Sie kaufen können ist %1.",module,Magento_CatalogInventory
+"Only %1 left","Nur noch %1 verfügbar",module,Magento_CatalogInventory
+"Product Name",Artikelname,module,Magento_CatalogInventory
+Qty,Menge,module,Magento_CatalogInventory
 "Catalog Price Rule","Falsche Regel festgelegt.",module,Magento_CatalogRule
 "Add New Rule","Neue Regel",module,Magento_CatalogRule
 "Apply Rules","Regeln anwenden",module,Magento_CatalogRule
@@ -1335,6 +1429,54 @@ Ordered,Bestellt,module,Magento_Downloadable
 Shipped,An:,module,Magento_Downloadable
 Canceled,Storniert,module,Magento_Downloadable
 Refunded,Erstattet,module,Magento_Downloadable
+"Attribute Properties","Falsche Datensatz ID",module,Magento_Eav
+"Default label","Voreingestelltes Label",module,Magento_Eav
+"Attribute Code",Attributescode,module,Magento_Eav
+"Catalog Input Type for Store Owner","Katalog Eingabetyp für Shop-Betreiber",module,Magento_Eav
+"Values Required","Werte erforderlich",module,Magento_Eav
+"Default Value",Standardwert,module,Magento_Eav
+"Unique Value","Einmaliger Wert",module,Magento_Eav
+"Unique Value (not shared with other products)","Eindeutiger Wert (nicht mit anderen Produkten geteilt)",module,Magento_Eav
+"Not shared with other products","Nicht mit anderen Produkten geteilt",module,Magento_Eav
+"Input Validation for Store Owner","Eingabeüberprüfung für Shopbetreiber",module,Magento_Eav
+Required,Erforderlich,module,Magento_Eav
+Yes,Ja,module,Magento_Eav
+No,Keine,module,Magento_Eav
+None,Keine,module,Magento_Eav
+"Decimal Number",Dezimalzahl,module,Magento_Eav
+"Integer Number","Ganze Zahl",module,Magento_Eav
+Email,E-Mail,module,Magento_Eav
+Letters,Buchstaben,module,Magento_Eav
+"Letters (a-z, A-Z) or Numbers (0-9)","Buchstaben (a-Z, A-Z) oder Zahlen (0-9)",module,Magento_Eav
+"Text Field","Einzeiliges Textfeld",module,Magento_Eav
+"Text Area","Mehrzeiliger Text",module,Magento_Eav
+Date,Datum,module,Magento_Eav
+Yes/No,URL,module,Magento_Eav
+"Multiple Select","Mehrfach Auswahl",module,Magento_Eav
+"""%1"" invalid type entered.","""%1"" Ungültiger Typ eingegeben.",module,Magento_Eav
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" enthält nicht alphabetische oder nicht numerische Zeichen.",module,Magento_Eav
+"""%1"" is an empty string.","""%1"" ist eine leere Zeichenfolge.",module,Magento_Eav
+"""%1"" contains non-numeric characters.","""%1"" enthält nicht numerische Zeichen.",module,Magento_Eav
+"""%1"" contains non-alphabetic characters.","""%1"" enthält nicht alphabetische Zeichen.",module,Magento_Eav
+"""%1"" is not a valid email address.","""%1"" ist keine gültige e-Mail-Adresse.",module,Magento_Eav
+"""%1"" is not a valid hostname.","""%1"" ist kein gültiger Hostname.",module,Magento_Eav
+"""%1"" is not a valid URL.","""%1"" ist keine gültige URL.",module,Magento_Eav
+"""%1"" is not a valid date.","""%1"" ist kein gültiges Datum.",module,Magento_Eav
+"""%1"" does not fit the entered date format.","""%1"" das eingegebene Datumsformat stimmt nicht.",module,Magento_Eav
+"""%1"" is not a valid file extension.","""%1"" ist keine gültige Datei-Erweiterung.",module,Magento_Eav
+"""%1"" is not a valid file.","""%1"" ist keine gültige Datei.",module,Magento_Eav
+"""%1"" exceeds the allowed file size.","""%1"" überschreitet die zulässige Dateigröße.",module,Magento_Eav
+"""%1"" is not a valid image format","""%1"" ist kein gültiges Bildformat",module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.","""%1"" Breite überschreitet den zulässigen Wert von %2 px.",module,Magento_Eav
+"""%1"" height exceeds allowed value of %2 px.","""%1"" Höhe überschreitet erlaubten Wert von %2 px.",module,Magento_Eav
+"""%1"" length must be equal or greater than %2 characters.","""%1"" Länge muss gleich oder größer als %2 Zeichen sein.",module,Magento_Eav
+"""%1"" length must be equal or less than %2 characters.","""%1"" Länge muss gleich oder kleiner als %2 Zeichen sein.",module,Magento_Eav
+"Invalid default date","Ungültiges Standarddatum",module,Magento_Eav
+"Invalid entity supplied","Ungültige Entität angegeben",module,Magento_Eav
+"The value of attribute ""%1"" must be set","Der Wert des Attributs ""%1"" muss festgelegt werden",module,Magento_Eav
+"Invalid date","Ungültiges Datum",module,Magento_Eav
+"No options found.","Keine Optionen gefunden.",module,Magento_Eav
+label,Kennzeichen,module,Magento_Eav
 "Add New Template",Vorlagenbetreff,module,Magento_Email
 "Transactional Emails",Transaktions-E-Mails,module,Magento_Email
 Back,Zurück,module,Magento_Email
@@ -2842,6 +2984,13 @@ Done,Fertig,module,Magento_Integration
 "Sorry, something went wrong.","Entschuldigung, leider ging etwas schief.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Entschuldigung, leider ging etwas schief. Bitte versuchen Sie es später erneut.",module,Magento_Paypal
 "Add Products","Artikel hinzufügen",module,Magento_Sales
+"Use HTTPS to Get Feed","Bitte verwende HTTPS und den Feed anzuzeigen",module,Magento_AdminNotification
+"Update Frequency","Update Frequenz",module,Magento_AdminNotification
+"Last Update","Letzte Aktualisierung",module,Magento_AdminNotification
+Severity,Schweregrad,module,Magento_AdminNotification
+"Date Added","Hinzugefügt am",module,Magento_AdminNotification
+Message,Nachricht,module,Magento_AdminNotification
+Actions,Aktionen,module,Magento_AdminNotification
 "Authorize.net Direct Post","Authorize.net Direktpost",module,Magento_Authorizenet
 Enabled,Aktiviert,module,Magento_Authorizenet
 "Payment Action",Zahlungsvorgang,module,Magento_Authorizenet
@@ -2988,6 +3137,20 @@ Description,Beschreibung,module,Magento_Backend
 Tags,Schlagwörter,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> 404-Fehler</h1> <p>Seite nicht gefunden.</p>",module,Magento_Backend
 "Community Edition",Community-Edition,module,Magento_Backend
+"Scheduled Backup Settings","Einstellungen für geplante Sicherungen",module,Magento_Backup
+"Enable Scheduled Backup","Geplante Sicherungen aktivieren",module,Magento_Backup
+"Backup Type","Backup Typ",module,Magento_Backup
+"Start Time",Startzeit,module,Magento_Backup
+Frequency,Häufigkeit,module,Magento_Backup
+"Maintenance Mode",Wartungsmodus,module,Magento_Backup
+Delete,Löschen,module,Magento_Backup
+"Are you sure you want to delete the selected backup(s)?","Sind Sie sicher, dass Sie die ausgewählten Backups löschen möchten?",module,Magento_Backup
+Time,Zeit,module,Magento_Backup
+Size(bytes),"Größe (Bytes)",module,Magento_Backup
+Type,Art,module,Magento_Backup
+Download,Herunterladen,module,Magento_Backup
+Action,Aktion,module,Magento_Backup
+Rollback,Wiederherstellung,module,Magento_Backup
 "Enable PayPal through Braintree","PayPal via Braintree aktivieren",module,Magento_Braintree
 Title,Titel,module,Magento_Braintree
 Environment,Umgebung,module,Magento_Braintree
@@ -3020,6 +3183,21 @@ Forms,Formulare,module,Magento_Captcha
 "Case Sensitive","Groß-/Kleinschreibung beachten",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Captcha für Frontend aktivieren",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA für ""Benutzer erstellen""- und ""Passwort vergessen""-Formulare sind immer aktiviert, wenn gewählt.",module,Magento_Captcha
+Inventory,Inventar,module,Magento_CatalogInventory
+"Stock Options","Lagerbestands Optionen",module,Magento_CatalogInventory
+"Decrease Stock When Order is Placed","Verringere Lagerbestand bei Bestellung",module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled","Setze Lagerstatus auf ""Verfügbar"" wenn Bestellung storniert wird",module,Magento_CatalogInventory
+"Display Out of Stock Products","Anzeige der ""Nicht auf Lager"" Produkte",module,Magento_CatalogInventory
+"Only X left Threshold","""Nur noch X Produkte verfügbar"" Schwelle",module,Magento_CatalogInventory
+"Display products availability in stock on Storefront.","Lagerbestand im Frontend anzeigen.",module,Magento_CatalogInventory
+"Product Stock Options","Lagerverwaltungs Optionen",module,Magento_CatalogInventory
+"Manage Stock",Verpackungseinheiten,module,Magento_CatalogInventory
+"Maximum Qty Allowed in Shopping Cart","Maximal erlaubte Menge im Warenkorb",module,Magento_CatalogInventory
+"Minimum Qty Allowed in Shopping Cart","Minimal erlaubte Menge im Warenkorb",module,Magento_CatalogInventory
+"Notify for Quantity Below","Benachrichtigung bei Menge unter",module,Magento_CatalogInventory
+"Automatically Return Credit Memo Item to Stock","Erzeuge automatische Gutschrift wenn Artikel zurück in Lager geht",module,Magento_CatalogInventory
+"Enable Qty Increments","Mengenerhöhungen aktivieren",module,Magento_CatalogInventory
+"Qty Increments","Anzahl erhöhen",module,Magento_CatalogInventory
 Rule,Regel,module,Magento_CatalogRule
 "Web Site",Website,module,Magento_CatalogRule
 "Popular Search Terms","Beliebte Suchbegriffe",module,Magento_CatalogSearch
@@ -3197,6 +3375,7 @@ Frequency,Häufigkeit,module,Magento_Directory
 "Use Content-Disposition","Bereitstellung der Inhalte",module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","Gastbestellung deaktivieren, wenn im Warenkorb Downloadprodukte sind",module,Magento_Downloadable
 "Guest checkout will only work with shareable.","Unabhängig von dieser Funktion, ist die Gastbestellung bei teilbaren Downloadprodukten nicht möglich.",module,Magento_Downloadable
+"Entity types declaration cache.","Deklarations-Cache für Entity-Typen.",module,Magento_Eav
 "No Templates Found",Vorlagentyp,module,Magento_Email
 ID,Id,module,Magento_Email
 Added,Hinzugefügt,module,Magento_Email
