@@ -459,6 +459,7 @@ Always,Immer,module,Magento_Captcha
 "Minimum Qty","Der Lagerbestand des Artikels ist ungültig",module,Magento_CatalogInventory
 "Add Minimum Qty","Mindestmenge hinzufügen",module,Magento_CatalogInventory
 "This product is out of stock.","Dieses Produkt ist nicht auf Lager.",module,Magento_CatalogInventory
+"The stock item for Product in option is not valid.","Der Lagerartikel für das Produktoption ist nicht gültig.",module,Magento_CatalogInventory
 "Undefined product type","Undefinierter Produkttyp",module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 ist keine richtige Vergleichsmethode.",module,Magento_CatalogInventory
 "No Backorders","Keine Backorders",module,Magento_CatalogInventory
@@ -1083,6 +1084,7 @@ SKU,Artikelnummer,module,Magento_ConfigurableProduct
 Weight,Gewicht,module,Magento_ConfigurableProduct
 "Upload Image","Bild hochladen",module,Magento_ConfigurableProduct
 "No Image","Kein Bild",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Betroffenes Attributset wählen",module,Magento_ConfigurableProduct
 Confirm,Bestätigen,module,Magento_ConfigurableProduct
 Cancel,Speichern,module,Magento_ConfigurableProduct
 "* Required Fields","* Pflichtfelder",module,Magento_Contact
@@ -1156,6 +1158,7 @@ Qty,Menge,module,Magento_Customer
 Confirmed,Bestätigt,module,Magento_Customer
 "Confirmation Required","Bestätigung erforderlich",module,Magento_Customer
 "Confirmation Not Required","Bestätigung nicht erforderlich",module,Magento_Customer
+Indeterminate,Unbestimmt,module,Magento_Customer
 "The customer does not have default billing address.","Der Kunde verfügt über keine Standard-Rechnungsanschrift.",module,Magento_Customer
 Never,Niemals,module,Magento_Customer
 "Deleted Stores","Gelöschten Stores",module,Magento_Customer
@@ -1313,6 +1316,7 @@ Login,Anmelden,module,Magento_Customer
 "Confirm Password","Passwort bestätigen",module,Magento_Customer
 "New Customers","Neue Kunden",module,Magento_Customer
 Gender,Geschlecht,module,Magento_Customer
+"Tax/VAT number",USt-IdNr,module,Magento_Customer
 "Client side less compilation","Leer lassen für den Zugriff von jeder beliebigen IP.",module,Magento_Developer
 "Server side less compilation","Server-seitige .less Kompilierung",module,Magento_Developer
 "Wrong Content Type","Falscher Content-Type",module,Magento_Dhl
@@ -2754,7 +2758,9 @@ Roles,Rollen,module,Magento_User
 Email,E-Mail,module,Magento_User
 Active,Aktiv,module,Magento_User
 Inactive,Inaktiv,module,Magento_User
+"Role Resources",Rollenressourcen,module,Magento_User
 "Role Info",Rolleninfo,module,Magento_User
+"Role Name",Rollenname,module,Magento_User
 "Add New User","Neuen Benutzer hinzufügen",module,Magento_User
 Users,Benutzer,module,Magento_User
 "Save User","Benutzer speichern",module,Magento_User
@@ -2767,17 +2773,39 @@ Password,Passwort,module,Magento_User
 "New Password","Neues Kennwort",module,Magento_User
 "Password Confirmation","Kennwort bestätigen",module,Magento_User
 "Interface Locale","Gebietsschema der Oberfläche",module,Magento_User
+"This account is","Dieses Konto ist",module,Magento_User
+"Account Status",Kontostatus,module,Magento_User
 "Your Password","Ihr Kennwort",module,Magento_User
+"User Roles Information",Benutzerrolleninformation,module,Magento_User
+Assigned,Zugewiesen,module,Magento_User
 Role,Rolle,module,Magento_User
 "User Information",Benutzerinformationen,module,Magento_User
 "User Info",Benutzer-Informationen,module,Magento_User
 "User Role",Benutzerrolle,module,Magento_User
+"Please correct the password reset token.","Bitte korrigieren Sie den Passwort-Token.",module,Magento_User
+"Please specify the correct account and try again.","Bitte geben Sie das richtige Konto an und versuchen Sie es erneut.",module,Magento_User
 "Your password reset link has expired.","Ihr Link zum zurücksetzen des Passwort ist abgelaufen.",module,Magento_User
+"Please correct this email address:","Bitte korrigieren Sie diese E-Mail-Adresse:",module,Magento_User
 "Locked Users","Gesperrte Benutzer",module,Magento_User
 "Unlocked %1 user(s).","Entsperrt(e) %1 Benutzer.",module,Magento_User
+Permissions,Berechtigungen,module,Magento_User
+"You cannot delete your own account.","Sie können Ihr eigenes Konto nicht löschen.",module,Magento_User
 "You deleted the user.","Sie haben den Benutzer gelöscht.",module,Magento_User
 "This user no longer exists.","Dieser Benutzer existiert nicht mehr.",module,Magento_User
 "Edit User","Benutzer bearbeiten",module,Magento_User
+"You cannot delete self-assigned roles.","Selbst zugewiesene Rollen können nicht gelöscht werden.",module,Magento_User
+"You deleted the role.","Sie haben die Rolle gelöscht.",module,Magento_User
+"An error occurred while deleting this role.","Beim Löschen der Rolle trat ein Fehler auf.",module,Magento_User
+"Edit Role","Rolle bearbeiten",module,Magento_User
+"New Role","Neue Rolle",module,Magento_User
+"This role no longer exists.","Diese Rolle existiert nicht mehr.",module,Magento_User
+"You saved the role.","Sie haben die Rolle gespeichert.",module,Magento_User
+"An error occurred while saving this role.","Beim Speichern der Rolle trat ein Fehler auf.",module,Magento_User
+"You saved the user.","Sie haben den Benutzer gespeichert.",module,Magento_User
+"A user with the same user name or email already exists.","Es besteht bereits ein Benutzer mit diesem Benutzernamen oder dieser E-Mail-Adresse.",module,Magento_User
+Recommended,Empfohlen,module,Magento_User
+Forced,Erzwingen,module,Magento_User
+"Sorry, but this password has already been used. Please create another.","Tut mir leid, aber dieses Kennwort wurde bereits verwendet. Bitte erstellen Sie ein anderes.",module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.","Sie haben sich nicht korrekt angemeldet oder Ihr Konto ist vorübergehend deaktiviert.",module,Magento_User
 "User Name is a required field.","Benutzername ist ein Pflichtfeld.",module,Magento_User
 "First Name is a required field.","Vorname ist ein Pflichtfeld.",module,Magento_User
@@ -2793,9 +2821,11 @@ Role,Rolle,module,Magento_User
 "Reset a Password","Zurücksetzen eines Passworts",module,Magento_User
 "Confirm New Password","Neues Passwort bestätigen",module,Magento_User
 "Reset Password","Passwort zurücksetzen",module,Magento_User
+"Roles Resources",Rollenressourcen,module,Magento_User
 "Resource Access",Zugriffsrechte,module,Magento_User
 Custom,Benutzerdefiniert,module,Magento_User
 All,Alle,module,Magento_User
+Resources,Ressourcen,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Achtung!\r\nDiese Aktion entfernt diesen Benutzer aus der bereits zugewiesenen Rolle\r\nSind Sie sicher?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Achtung! \r\nDiese Aktion entfernt die Benutzer aus bereits zugewiesenen Rollen\r\nSind Sie sicher?",module,Magento_User
 "First-Class Mail Large Envelope",USPS,module,Magento_Usps
@@ -3151,6 +3181,7 @@ Type,Art,module,Magento_Backup
 Download,Herunterladen,module,Magento_Backup
 Action,Aktion,module,Magento_Backup
 Rollback,Wiederherstellung,module,Magento_Backup
+"Enable this Solution","Lösung aktivieren",module,Magento_Braintree
 "Enable PayPal through Braintree","PayPal via Braintree aktivieren",module,Magento_Braintree
 Title,Titel,module,Magento_Braintree
 Environment,Umgebung,module,Magento_Braintree
@@ -3188,6 +3219,7 @@ Inventory,Inventar,module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Verringere Lagerbestand bei Bestellung",module,Magento_CatalogInventory
 "Set Items' Status to be In Stock When Order is Cancelled","Setze Lagerstatus auf ""Verfügbar"" wenn Bestellung storniert wird",module,Magento_CatalogInventory
 "Display Out of Stock Products","Anzeige der ""Nicht auf Lager"" Produkte",module,Magento_CatalogInventory
+"Products will still be shown by direct product URLs.","Produkte werden weiterhin unter direkter Produkt-URL angezeigt.",module,Magento_CatalogInventory
 "Only X left Threshold","""Nur noch X Produkte verfügbar"" Schwelle",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Lagerbestand im Frontend anzeigen.",module,Magento_CatalogInventory
 "Product Stock Options","Lagerverwaltungs Optionen",module,Magento_CatalogInventory
@@ -3229,11 +3261,19 @@ Watermark,Wasserzeichen,module,Magento_Catalog
 "Product Categories",Produkt-Kategorien,module,Magento_Catalog
 "Product Price",Produktpreis,module,Magento_Catalog
 "All products","Alle Artikel",module,Magento_Catalog
+"New products","Neue Produkte",module,Magento_Catalog
 "Display Page Control","Anzahl der Artikel die angezeigt werden sollen",module,Magento_Catalog
+"Number of Products per Page","Anzahl der Produkte pro Seite",module,Magento_Catalog
+"Number of Products to Display","Anzahl der angezeigten Produkte",module,Magento_Catalog
 Template,Vorlage,module,Magento_Catalog
+"Cache Lifetime (Seconds)","Cache-Lebensdauer (in Sekunden)",module,Magento_Catalog
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 wenn nichts anderes festgelegt. Um sofort zu aktualisieren, löschen Sie bitte den Block-HTML-Ausgabe-Cache.",module,Magento_Catalog
 "Anchor Custom Text","Individueller Anker Text",module,Magento_Catalog
 "Anchor Custom Title","Individueller Link-Text",module,Magento_Catalog
+"Product Link Block Template","Produktlink - Blockvorlage",module,Magento_Catalog
+"Product Link Inline Template","Produktlink - Inlinevorlage",module,Magento_Catalog
+"Link to a Specified Category","Verlinkung auf eine bestimmte Kategorie",module,Magento_Catalog
+"Category Link Block Template","Kategorielink - Blockvorlage",module,Magento_Catalog
 Set,Einrichten,module,Magento_Catalog
 "Change status","Status ändern",module,Magento_Catalog
 none,keine,module,Magento_Catalog
@@ -3306,7 +3346,10 @@ CSV,"Excel XML",module,Magento_CustomerImportExport
 "Excel XML",Excel-XML,module,Magento_CustomerImportExport
 "Account Sharing Options","Benutzerkonto Verteilungsoptionen",module,Magento_Customer
 "Tax Calculation Based On","Steuerberechnung basiert auf",module,Magento_Customer
+"Default Group",Standardgruppe,module,Magento_Customer
 "Email Sender",E-Mail-Absender,module,Magento_Customer
+"Confirmation Link Email",Bestätigungs-E-Mail,module,Magento_Customer
+"Welcome Email",Willkommens-E-Mail,module,Magento_Customer
 "Password Options",Kennwortoptionen,module,Magento_Customer
 "Recovery Link Expiration Period (days)","Ablaufzeit des Wiederherstellungs-Links (Tage)",module,Magento_Customer
 Group,Gruppe,module,Magento_Customer
@@ -3396,9 +3439,12 @@ Password,Passwort,module,Magento_Fedex
 "Sort Order",Sortierreihenfolge,module,Magento_Fedex
 "Google AdWords","Google Adwords",module,Magento_GoogleAdwords
 Enable,Aktivieren,module,Magento_GoogleAdwords
+"Conversion Language",Konversionssprache,module,Magento_GoogleAdwords
 "Conversion Format",Umwandlungsformat,module,Magento_GoogleAdwords
+"Conversion Color",Konversionsfarbe,module,Magento_GoogleAdwords
 "Conversion Label",Umbau-Label,module,Magento_GoogleAdwords
 "Conversion Value Type","Umwandlungswert Typ",module,Magento_GoogleAdwords
+"Conversion Value",Konversionswert,module,Magento_GoogleAdwords
 Enable,Aktivieren,module,Magento_GoogleAnalytics
 "Account Number",Kundenkontonummer,module,Magento_GoogleAnalytics
 "Enable Content Experiments","Content-Tests aktivieren",module,Magento_GoogleOptimizer
@@ -3407,7 +3453,16 @@ Mode,Modus,module,Magento_Indexer
 Updated,Aktualisiert,module,Magento_Indexer
 "Integration configuration file.",Integrationskonfigurationsdatei.,module,Magento_Integration
 "No Integrations Found","Keine Integrationen gefunden",module,Magento_Integration
+"Layered Navigation","Erweiterte Navigation",module,Magento_LayeredNavigation
 "Display Product Count","Produkt-Anzahl anzeigen",module,Magento_LayeredNavigation
+"Price Navigation Step Calculation",Preisnavigationsschritt-Berechnung,module,Magento_LayeredNavigation
+"Default Price Navigation Step",Standard-Preisnavigationsschritt,module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","Höchstmenge an Preisschritten",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","Höchstmenge an Preisschritten ist 100",module,Magento_LayeredNavigation
+"Display Price Interval as One Price","Preisintervall als Einzelpreis darstellen",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","Diese Einstellung wird angewendet, wenn alle Preise im angegebenen Preisintervall gleich sind.",module,Magento_LayeredNavigation
+"Interval Division Limit",Intervall-Teilungsbeschränkung,module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.","Bitte geben Sie die Anzahl der Produkte an, die nicht in Teilintervalle unterteilt wird.",module,Magento_LayeredNavigation
 Options,Optionen,module,Magento_Multishipping
 "Queue Subject","Betreff der Warteschlange",module,Magento_Newsletter
 "Error Code",Fehlernummer,module,Magento_Newsletter
@@ -3486,9 +3541,11 @@ User,Benutzer,module,Magento_Paypal
 "Allowed Credit Card Types","Pflichtangabe der Rechnungsadresse des Kunden",module,Magento_Paypal
 "Persistent Shopping Cart","Persistenter Warenkorb",module,Magento_Persistent
 "General Options","Allgemeine Optionen",module,Magento_Persistent
+"Enable Persistence","Sitzungsdatenspeicherung aktivieren",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Persistenz Gültigkeitsdauer (Sekunden)",module,Magento_Persistent
 "Enable ""Remember Me""","Aktivieren Sie ""Angemeldet bleiben""",module,Magento_Persistent
 """Remember Me"" Default Value","Standardwert ""Angemeldet bleiben""",module,Magento_Persistent
+"Persist Shopping Cart","Persistenter Warenkorb",module,Magento_Persistent
 "Product Alerts",Artikelbenachrichtigungen,module,Magento_ProductAlert
 Frequency,Häufigkeit,module,Magento_ProductAlert
 "Start Time",Startzeit,module,Magento_ProductAlert
@@ -3615,7 +3672,8 @@ Mode,Modus,module,Magento_Ups
 Action,Aktion,module,Magento_UrlRewrite
 Edit,Bearbeiten,module,Magento_UrlRewrite
 "Reset Password Template","Vorlage für das Zurücksetzen des Passworts",module,Magento_User
-"We will disable this feature if the value is empty.","Funktion wird deaktiviert, wenn der Wert leer ist.",module,Magento_User
+"Maximum Login Failures to Lockout Account","Maximale Anmeldefehler bis zur Sperrung des Kontos",module,Magento_User
+"We will disable this feature if the value is empty.","Diese Funktion wird deaktiviert, wenn der Wert leer ist.",module,Magento_User
 "Lockout Time (minutes)","Sperrzeit (Minuten)",module,Magento_User
 "Password Lifetime (days)","Passwort-Gültigkeitsdauer (in Tagen)",module,Magento_User
 "Password Change","Passwort ändern",module,Magento_User
