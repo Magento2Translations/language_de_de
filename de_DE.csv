@@ -5158,6 +5158,7 @@ CSV,"Excel XML",module,Magento_CustomerImportExport
 "Welcome Email",Willkommens-E-Mail,module,Magento_Customer
 "Password Options",Kennwortoptionen,module,Magento_Customer
 "Assign a Customer Group","Eine Kundengruppe zuweisen",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Sind Sie sicher, dass Sie die ausgewählten Kunden zu einer neuen Gruppe hinzufügen möchten?",module,Magento_Customer
 Group,Gruppe,module,Magento_Customer
 "Add New Customer","Neuer Kunde hinzufügen",module,Magento_Customer
 "Are you sure to delete selected customers?","Sind Sie sicher, dass Sie die ausgewählten Kunden löschen möchten?",module,Magento_Customer
