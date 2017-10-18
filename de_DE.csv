@@ -620,6 +620,7 @@ Always,Immer,module,Magento_Captcha
 "The stock item for Product is not valid.","Der Lagerartikel für das Produkt ist nicht gültig.",module,Magento_CatalogInventory
 "This product is out of stock.","Dieses Produkt ist nicht auf Lager.",module,Magento_CatalogInventory
 "Some of the products are out of stock.","Einige der Produkte sind nicht auf Lager.",module,Magento_CatalogInventory
+"The stock item for Product in option is not valid.","Der Lagerartikel für das Produktoption ist nicht gültig.",module,Magento_CatalogInventory
 "Undefined product type","Undefinierter Produkttyp",module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 ist keine richtige Vergleichsmethode.",module,Magento_CatalogInventory
 "No Backorders","Keine Backorders",module,Magento_CatalogInventory
@@ -1547,8 +1548,10 @@ Summary,Zusammenfassung,module,Magento_ConfigurableProduct
 "Product already has this option","Produkt besitzt diese Option bereits",module,Magento_ConfigurableProduct
 "Something went wrong while saving option.","Etwas ist beim Speichern der Option schiefgegangen.",module,Magento_ConfigurableProduct
 "Only implemented for configurable product: %1","Nur für Konfigurierbare Produkte implementiert: %1",module,Magento_ConfigurableProduct
+"Option attribute ID is not specified.","Optionsattribut-ID ist nicht angegeben.",module,Magento_ConfigurableProduct
 "Option label is not specified.","Optionsbezeichnung ist nicht angegeben.",module,Magento_ConfigurableProduct
 "Option values are not specified.","Optionswerte sind nicht angegeben.",module,Magento_ConfigurableProduct
+"Value index is not specified for an option.","Value-Index ist für eine Option nicht spezifiziert.",module,Magento_ConfigurableProduct
 "The configurable product does not have any variation attribute.","Das konfigurierbare Produkt hat kein Variations-Attribut.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not exist.","Produkt mit Id ""%1"" ist nicht vorhanden.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not contain required attribute ""%2"".","Produkt mit Id ""%1"" enthält kein das erforderliche Attribut ""%2"" nicht.",module,Magento_ConfigurableProduct
@@ -1556,6 +1559,7 @@ Summary,Zusammenfassung,module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Sie können dieses Produkt nicht dem Warenkorb hinzufügen.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Sie müssen eine Optionen für Ihren Artikel wählen.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Einige Felder der Produktvariationen sind ungültig.",module,Magento_ConfigurableProduct
+"Configuration must have specified attributes","Konfiguration muss spezifizierte Attribute haben",module,Magento_ConfigurableProduct
 "Configurable product ""%1"" do not have sub-products","Das Konfigurierbare Produkt ""%1"" hat keine Unterprodukte",module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Diese Gruppe enthält Attribute die derzeit in Konfigurierbaren Produkten verwendet werden. Bitte verschieben Sie diese in eine andere Gruppe und versuchen Sie es erneut.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Dieses Attribut wird derzeit in Konfigurierbaren Produkten verwendet. Sie können es nicht vom Attribut Set entfernen.",module,Magento_ConfigurableProduct
@@ -1574,8 +1578,11 @@ Options,Optionen,module,Magento_ConfigurableProduct
 "Based on your selections <span class=""new-products-count"" data-bind=""text:countVariations""></span>
         new products will be created. Use this step to customize images and price for your new products.","Entsprechend Ihrer Auswahl werden <span class=""new-products-count"" data-bind=""text:countVariations"">        neue Produkte erstellt. Nutzen Sie diesen Schritt, um Bilder und Preise Ihrer neuen Produkte anzupassen.",module,Magento_ConfigurableProduct
 Images,Bilder,module,Magento_ConfigurableProduct
+"Apply single set of images to all SKUs","Ein Set von Bildern für alle SKUs verwenden",module,Magento_ConfigurableProduct
+"Apply unique images by attribute to each SKU","Einzigartige Bilder je nach Attribut für jede SKU verwenden",module,Magento_ConfigurableProduct
 "Skip image uploading at this time","Bildupload zu diesem Zeitpunkt überspringen",module,Magento_ConfigurableProduct
 "Browse Files...","Dateien durchsuchen...",module,Magento_ConfigurableProduct
+"Browse to find or drag image here","Durchsuchen Sie das Dateisystem oder ziehen Sie das Bild hierher",module,Magento_ConfigurableProduct
 "Remove image","Bild entfernen",module,Magento_ConfigurableProduct
 "Edit role","Rolle bearbeiten",module,Magento_ConfigurableProduct
 Hidden,Versteckt,module,Magento_ConfigurableProduct
@@ -1586,9 +1593,11 @@ Role,Rolle,module,Magento_ConfigurableProduct
 Select,Auswählen,module,Magento_ConfigurableProduct
 Price,Preis,module,Magento_ConfigurableProduct
 "Apply single price to all SKUs","Einheitspreis für alle Artikelnummern anwenden",module,Magento_ConfigurableProduct
+"Apply unique prices by attribute to each SKU","Unterschiedliche Preise je nach Attribut für jede SKU verwenden",module,Magento_ConfigurableProduct
 "Skip price at this time","Preis momentan überspringen",module,Magento_ConfigurableProduct
 Quantity,Menge,module,Magento_ConfigurableProduct
 "Apply single quantity to each SKUs","Gebe die Mengen jeder SKU an",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU","Unterschiedliche Menge je nach Attribut für jede SKU verwenden",module,Magento_ConfigurableProduct
 "Skip quantity at this time","Menge zu diesem Zeitpunkt überspringen",module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","Schritt 1: Wählen Sie die Attribute",module,Magento_ConfigurableProduct
 "Selected Attributes:","Ausgewählte Attribute:",module,Magento_ConfigurableProduct
@@ -1609,6 +1618,7 @@ Actions,Aktionen,module,Magento_ConfigurableProduct
 "Choose a different Product","Wählen Sie ein anderes Produkt",module,Magento_ConfigurableProduct
 "Remove Product","Produkt entfernen",module,Magento_ConfigurableProduct
 "Create Product Configurations","Produkt-Konfigurationen erstellen",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Betroffenes Attributset wählen",module,Magento_ConfigurableProduct
 Confirm,Bestätigen,module,Magento_ConfigurableProduct
 Cancel,Speichern,module,Magento_ConfigurableProduct
 "Page not found.","Seite nicht gefunden.",module,Magento_Contact
@@ -1720,6 +1730,7 @@ Qty,Menge,module,Magento_Customer
 Confirmed,Bestätigt,module,Magento_Customer
 "Confirmation Required","Bestätigung erforderlich",module,Magento_Customer
 "Confirmation Not Required","Bestätigung nicht erforderlich",module,Magento_Customer
+Indeterminate,Unbestimmt,module,Magento_Customer
 "The customer does not have default billing address.","Der Kunde verfügt über keine Standard-Rechnungsanschrift.",module,Magento_Customer
 Never,Niemals,module,Magento_Customer
 "Deleted Stores","Gelöschten Stores",module,Magento_Customer
@@ -1803,6 +1814,7 @@ Customers,Kunden,module,Magento_Customer
 "Please select customer(s).","Bitte wählen Sie die Kunden.",module,Magento_Customer
 "Customer could not be deleted.","Kunde konnte nicht gelöscht werden.",module,Magento_Customer
 "You deleted the customer.","Sie haben den Kunden gelöscht.",module,Magento_Customer
+"Something went wrong while editing the customer.","Beim Speichern des Kunden ging etwas schief.",module,Magento_Customer
 "Manage Customers","Kunden verwalten",module,Magento_Customer
 "Please correct the data sent.","Bitte korrigieren Sie die gesendeten Daten.",module,Magento_Customer
 "A total of %1 record(s) were updated.","Insgesamt %1 Einträge wurden aktualisiert.",module,Magento_Customer
@@ -1968,6 +1980,7 @@ Login,Anmelden,module,Magento_Customer
 "New Customers","Neue Kunden",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Ihre Anmeldung hat viele Vorteile: schnellerer Bestellvorgang, speichern von mehreren Adressen, Sendungsverfolgung und vieles mehr.",module,Magento_Customer
 Gender,Geschlecht,module,Magento_Customer
+"Tax/VAT number",USt-IdNr,module,Magento_Customer
 "Format for IDE '%1' is not supported","Format für IDE '%1' wird nicht unterstützt",module,Magento_Developer
 "Client side less compilation","Leer lassen für den Zugriff von jeder beliebigen IP.",module,Magento_Developer
 "Server side less compilation","Server-seitige .less Kompilierung",module,Magento_Developer
@@ -3980,7 +3993,9 @@ Roles,Rollen,module,Magento_User
 Email,E-Mail,module,Magento_User
 Active,Aktiv,module,Magento_User
 Inactive,Inaktiv,module,Magento_User
+"Role Resources",Rollenressourcen,module,Magento_User
 "Role Info",Rolleninfo,module,Magento_User
+"Role Name",Rollenname,module,Magento_User
 "Add New User","Neuen Benutzer hinzufügen",module,Magento_User
 Users,Benutzer,module,Magento_User
 "Save User","Benutzer speichern",module,Magento_User
@@ -3994,25 +4009,47 @@ Password,Passwort,module,Magento_User
 "New Password","Neues Kennwort",module,Magento_User
 "Password Confirmation","Kennwort bestätigen",module,Magento_User
 "Interface Locale","Gebietsschema der Oberfläche",module,Magento_User
+"This account is","Dieses Konto ist",module,Magento_User
+"Account Status",Kontostatus,module,Magento_User
 "Current User Identity Verification","Identitätsprüfung des Aktuellen Benutzers",module,Magento_User
 "Your Password","Ihr Kennwort",module,Magento_User
+"User Roles Information",Benutzerrolleninformation,module,Magento_User
+Assigned,Zugewiesen,module,Magento_User
 Role,Rolle,module,Magento_User
 "User Information",Benutzerinformationen,module,Magento_User
 "User Info",Benutzer-Informationen,module,Magento_User
 "User Role",Benutzerrolle,module,Magento_User
+"Please correct the password reset token.","Bitte korrigieren Sie den Passwort-Token.",module,Magento_User
+"Please specify the correct account and try again.","Bitte geben Sie das richtige Konto an und versuchen Sie es erneut.",module,Magento_User
 "Your password reset link has expired.","Ihr Link zum zurücksetzen des Passwort ist abgelaufen.",module,Magento_User
 "We'll email you a link to reset your password.","Wir senden Ihnen einen Link um Ihr Passwort zurückzusetzen.",module,Magento_User
+"Please correct this email address:","Bitte korrigieren Sie diese E-Mail-Adresse:",module,Magento_User
 "Please enter an email address.","Bitte geben Sie eine E-Mail-Adresse an.",module,Magento_User
 "You updated your password.","Ihr Passwort wurde aktualisiert.",module,Magento_User
 "Locked Users","Gesperrte Benutzer",module,Magento_User
 "Unlocked %1 user(s).","Entsperrt(e) %1 Benutzer.",module,Magento_User
+Permissions,Berechtigungen,module,Magento_User
+"You cannot delete your own account.","Sie können Ihr eigenes Konto nicht löschen.",module,Magento_User
 "You deleted the user.","Sie haben den Benutzer gelöscht.",module,Magento_User
 "We can't find a user to delete.","Wir können keinen Benutzer zum löschen finden.",module,Magento_User
 "This user no longer exists.","Dieser Benutzer existiert nicht mehr.",module,Magento_User
 "Edit User","Benutzer bearbeiten",module,Magento_User
 "You have revoked the user's tokens.","Sie haben das Benutzertoken widerrufen.",module,Magento_User
 "We can't find a user to revoke.","Wir haben kein Benutzertoken zum Widerrufen gefunden.",module,Magento_User
+"You cannot delete self-assigned roles.","Selbst zugewiesene Rollen können nicht gelöscht werden.",module,Magento_User
+"You deleted the role.","Sie haben die Rolle gelöscht.",module,Magento_User
+"An error occurred while deleting this role.","Beim Löschen der Rolle trat ein Fehler auf.",module,Magento_User
+"Edit Role","Rolle bearbeiten",module,Magento_User
+"New Role","Neue Rolle",module,Magento_User
+"This role no longer exists.","Diese Rolle existiert nicht mehr.",module,Magento_User
+"You saved the role.","Sie haben die Rolle gespeichert.",module,Magento_User
+"An error occurred while saving this role.","Beim Speichern der Rolle trat ein Fehler auf.",module,Magento_User
 "You have entered an invalid password for current user.","Sie haben ein ungültiges Kennwort für den aktuellen Benutzer eingegeben.",module,Magento_User
+"You saved the user.","Sie haben den Benutzer gespeichert.",module,Magento_User
+"A user with the same user name or email already exists.","Es besteht bereits ein Benutzer mit diesem Benutzernamen oder dieser E-Mail-Adresse.",module,Magento_User
+Recommended,Empfohlen,module,Magento_User
+Forced,Erzwingen,module,Magento_User
+"Sorry, but this password has already been used. Please create another.","Tut mir leid, aber dieses Kennwort wurde bereits verwendet. Bitte erstellen Sie ein anderes.",module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.","Sie haben sich nicht korrekt angemeldet oder Ihr Konto ist vorübergehend deaktiviert.",module,Magento_User
 "You need more permissions to access this.","Für den Zugriff benötigen Sie mehr Rechte.",module,Magento_User
 "User Name is a required field.","Benutzername ist ein Pflichtfeld.",module,Magento_User
@@ -4034,9 +4071,11 @@ Role,Rolle,module,Magento_User
 "Reset a Password","Zurücksetzen eines Passworts",module,Magento_User
 "Confirm New Password","Neues Passwort bestätigen",module,Magento_User
 "Reset Password","Passwort zurücksetzen",module,Magento_User
+"Roles Resources",Rollenressourcen,module,Magento_User
 "Resource Access",Zugriffsrechte,module,Magento_User
 Custom,Benutzerdefiniert,module,Magento_User
 All,Alle,module,Magento_User
+Resources,Ressourcen,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Achtung!\r\nDiese Aktion entfernt diesen Benutzer aus der bereits zugewiesenen Rolle\r\nSind Sie sicher?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Achtung! \r\nDiese Aktion entfernt die Benutzer aus bereits zugewiesenen Rollen\r\nSind Sie sicher?",module,Magento_User
 "First-Class Mail Large Envelope",USPS,module,Magento_Usps
@@ -4297,6 +4336,9 @@ Password:,Passwort:,module,Magento_Customer
 "The password for your account has been successfully changed.","Das Passwort für Ihr Benutzerkonto wurde erfolgreich geändert.",module,Magento_User
 "If you did not request this change, please contact us.","Sollten Sie diese Änderung nicht angefordert haben, kontaktieren Sie uns bitte.",module,Magento_User
 "Thank you,","Vielen Dank,",module,Magento_User
+"There was recently a request to change the password for your account.","Wir haben eine Anfrage zum Ändern Ihres Passworts erhalten.",module,Magento_User
+"If you requested this change, reset your password here:","Wenn Sie diese Änderung angefordert haben, setzen Sie Ihr Passwort hier zurück:",module,Magento_User
+"If you did not make this request, you can ignore this email and your password will remain the same.","Wenn Sie diese Anfrage nicht erstellt haben, können Sie diese E-Mail ignorieren und Ihr Passwort bleibt gleich.",module,Magento_User
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name möchte diese Wunschliste von %store_name mit Ihnen teilen:",module,Magento_Wishlist
 "Message from %customer_name:","Nachricht von %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Alle Produkte der Wunschliste anzeigen",module,Magento_Wishlist
@@ -4553,6 +4595,7 @@ Download,Herunterladen,module,Magento_Backup
 Action,Aktion,module,Magento_Backup
 Rollback,Wiederherstellung,module,Magento_Backup
 &nbsp;,&#160;,module,Magento_Braintree
+"Enable this Solution","Lösung aktivieren",module,Magento_Braintree
 "Enable PayPal through Braintree","PayPal via Braintree aktivieren",module,Magento_Braintree
 "Basic Braintree Settings","Einfache Braintree-Einstellungen",module,Magento_Braintree
 Title,Titel,module,Magento_Braintree
@@ -4579,6 +4622,8 @@ Environment,Umgebung,module,Magento_Braintree
 "Country Specific Credit Card Types","Länderspezifische Kreditkartentypen",module,Magento_Braintree
 "PayPal through Braintree","PayPal via Braintree",module,Magento_Braintree
 "Override Merchant Name","Händlername überschreiben",module,Magento_Braintree
+"Display on Shopping Cart","Im Warenkorb anzeigen",module,Magento_Braintree
+"Require Customer's Billing Address","Rechnungsadresse des Kunden erforderlich",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Zulassen, dass die beim Checkout eingegebene Lieferadresse auf der PayPal-Seite geändert werden kann",module,Magento_Braintree
 "3D Secure Verification Settings",3D-Secure-Verifizierungseinstellungen,module,Magento_Braintree
 "3D Secure Verification",3D-Secure-Verifizierung,module,Magento_Braintree
@@ -4601,6 +4646,7 @@ Inventory,Inventar,module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Verringere Lagerbestand bei Bestellung",module,Magento_CatalogInventory
 "Set Items' Status to be In Stock When Order is Cancelled","Setze Lagerstatus auf ""Verfügbar"" wenn Bestellung storniert wird",module,Magento_CatalogInventory
 "Display Out of Stock Products","Anzeige der ""Nicht auf Lager"" Produkte",module,Magento_CatalogInventory
+"Products will still be shown by direct product URLs.","Produkte werden weiterhin unter direkter Produkt-URL angezeigt.",module,Magento_CatalogInventory
 "Only X left Threshold","""Nur noch X Produkte verfügbar"" Schwelle",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Lagerbestand im Frontend anzeigen.",module,Magento_CatalogInventory
 "Product Stock Options","Lagerverwaltungs Optionen",module,Magento_CatalogInventory
@@ -4641,6 +4687,7 @@ Template,Vorlage,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","Cache-Lebensdauer (in Sekunden)",module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 wenn nichts anderes festgelegt. Um sofort zu aktualisieren, löschen Sie bitte den Block-HTML-Ausgabe-Cache.",module,Magento_CatalogWidget
 Conditions,Bedingungen,module,Magento_CatalogWidget
+Small,Klein,module,Magento_Catalog
 Main,Primär,module,Magento_Catalog
 Thumbnail,Vorschaubild,module,Magento_Catalog
 "Custom image","Benutzerdefiniertes Bild",module,Magento_Catalog
@@ -4669,13 +4716,23 @@ Watermark,Wasserzeichen,module,Magento_Catalog
 "Product Price",Produktpreis,module,Magento_Catalog
 "Product EAV","Produkt EAV",module,Magento_Catalog
 "All products","Alle Artikel",module,Magento_Catalog
+"New products","Neue Produkte",module,Magento_Catalog
 "Display Page Control","Anzahl der Artikel die angezeigt werden sollen",module,Magento_Catalog
+"Number of Products per Page","Anzahl der Produkte pro Seite",module,Magento_Catalog
+"Number of Products to Display","Anzahl der angezeigten Produkte",module,Magento_Catalog
 Template,Vorlage,module,Magento_Catalog
+"Cache Lifetime (Seconds)","Cache-Lebensdauer (in Sekunden)",module,Magento_Catalog
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 wenn nichts anderes festgelegt. Um sofort zu aktualisieren, löschen Sie bitte den Block-HTML-Ausgabe-Cache.",module,Magento_Catalog
 "Select Product...","Wähle Artikel...",module,Magento_Catalog
 "Anchor Custom Text","Individueller Anker Text",module,Magento_Catalog
+"If empty, we'll use the product name here.","Wenn leer, verwenden wir hier den Namen des Produkts.",module,Magento_Catalog
 "Anchor Custom Title","Individueller Link-Text",module,Magento_Catalog
+"Product Link Block Template","Produktlink - Blockvorlage",module,Magento_Catalog
+"Product Link Inline Template","Produktlink - Inlinevorlage",module,Magento_Catalog
+"Link to a Specified Category","Verlinkung auf eine bestimmte Kategorie",module,Magento_Catalog
 "Select Category...","Wähle Kategorie...",module,Magento_Catalog
+"If empty, we'll use the category name here.","Wenn leer, verwenden wir hier den Namen der Kategorie.",module,Magento_Catalog
+"Category Link Block Template","Kategorielink - Blockvorlage",module,Magento_Catalog
 Set,Einrichten,module,Magento_Catalog
 "All Store Views","Alle Ladenansichte",module,Magento_Catalog
 "Delete items","Elemente löschen",module,Magento_Catalog
@@ -4791,7 +4848,10 @@ CSV,"Excel XML",module,Magento_CustomerImportExport
 "Excel XML",Excel-XML,module,Magento_CustomerImportExport
 "Account Sharing Options","Benutzerkonto Verteilungsoptionen",module,Magento_Customer
 "Tax Calculation Based On","Steuerberechnung basiert auf",module,Magento_Customer
+"Default Group",Standardgruppe,module,Magento_Customer
 "Email Sender",E-Mail-Absender,module,Magento_Customer
+"Confirmation Link Email",Bestätigungs-E-Mail,module,Magento_Customer
+"Welcome Email",Willkommens-E-Mail,module,Magento_Customer
 "Password Options",Kennwortoptionen,module,Magento_Customer
 "Recovery Link Expiration Period (days)","Ablaufzeit des Wiederherstellungs-Links (Tage)",module,Magento_Customer
 Group,Gruppe,module,Magento_Customer
@@ -4898,9 +4958,12 @@ Password,Passwort,module,Magento_Fedex
 "Sort Order",Sortierreihenfolge,module,Magento_Fedex
 "Google AdWords","Google Adwords",module,Magento_GoogleAdwords
 Enable,Aktivieren,module,Magento_GoogleAdwords
+"Conversion Language",Konversionssprache,module,Magento_GoogleAdwords
 "Conversion Format",Umwandlungsformat,module,Magento_GoogleAdwords
+"Conversion Color",Konversionsfarbe,module,Magento_GoogleAdwords
 "Conversion Label",Umbau-Label,module,Magento_GoogleAdwords
 "Conversion Value Type","Umwandlungswert Typ",module,Magento_GoogleAdwords
+"Conversion Value",Konversionswert,module,Magento_GoogleAdwords
 Enable,Aktivieren,module,Magento_GoogleAnalytics
 "Account Number",Kundenkontonummer,module,Magento_GoogleAnalytics
 "Enable Content Experiments","Content-Tests aktivieren",module,Magento_GoogleOptimizer
@@ -4913,7 +4976,16 @@ Updated,Aktualisiert,module,Magento_Indexer
 "Integration configuration file.",Integrationskonfigurationsdatei.,module,Magento_Integration
 "Integrations API configuration file.",Integrationen-API-Konfigurationsdatei.,module,Magento_Integration
 "No Integrations Found","Keine Integrationen gefunden",module,Magento_Integration
+"Layered Navigation","Erweiterte Navigation",module,Magento_LayeredNavigation
 "Display Product Count","Produkt-Anzahl anzeigen",module,Magento_LayeredNavigation
+"Price Navigation Step Calculation",Preisnavigationsschritt-Berechnung,module,Magento_LayeredNavigation
+"Default Price Navigation Step",Standard-Preisnavigationsschritt,module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","Höchstmenge an Preisschritten",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","Höchstmenge an Preisschritten ist 100",module,Magento_LayeredNavigation
+"Display Price Interval as One Price","Preisintervall als Einzelpreis darstellen",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","Diese Einstellung wird angewendet, wenn alle Preise im angegebenen Preisintervall gleich sind.",module,Magento_LayeredNavigation
+"Interval Division Limit",Intervall-Teilungsbeschränkung,module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.","Bitte geben Sie die Anzahl der Produkte an, die nicht in Teilintervalle unterteilt wird.",module,Magento_LayeredNavigation
 "Storage Configuration for Media","Speicherkonfiguration für Medien",module,Magento_MediaStorage
 "Media Storage","Medien Speicherung",module,Magento_MediaStorage
 "Select Media Database","Wählen Sie die Mediendatenbank",module,Magento_MediaStorage
@@ -5016,9 +5088,12 @@ User,Benutzer,module,Magento_Paypal
 "Allowed Credit Card Types","Pflichtangabe der Rechnungsadresse des Kunden",module,Magento_Paypal
 "Persistent Shopping Cart","Persistenter Warenkorb",module,Magento_Persistent
 "General Options","Allgemeine Optionen",module,Magento_Persistent
+"Enable Persistence","Sitzungsdatenspeicherung aktivieren",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Persistenz Gültigkeitsdauer (Sekunden)",module,Magento_Persistent
 "Enable ""Remember Me""","Aktivieren Sie ""Angemeldet bleiben""",module,Magento_Persistent
 """Remember Me"" Default Value","Standardwert ""Angemeldet bleiben""",module,Magento_Persistent
+"Clear Persistence on Sign Out","Lösche Sitzungsdaten beim Abmelden",module,Magento_Persistent
+"Persist Shopping Cart","Persistenter Warenkorb",module,Magento_Persistent
 "Product Alerts",Artikelbenachrichtigungen,module,Magento_ProductAlert
 Frequency,Häufigkeit,module,Magento_ProductAlert
 "Start Time",Startzeit,module,Magento_ProductAlert
@@ -5170,7 +5245,8 @@ Mode,Modus,module,Magento_Ups
 Action,Aktion,module,Magento_UrlRewrite
 Edit,Bearbeiten,module,Magento_UrlRewrite
 "Reset Password Template","Vorlage für das Zurücksetzen des Passworts",module,Magento_User
-"We will disable this feature if the value is empty.","Funktion wird deaktiviert, wenn der Wert leer ist.",module,Magento_User
+"Maximum Login Failures to Lockout Account","Maximale Anmeldefehler bis zur Sperrung des Kontos",module,Magento_User
+"We will disable this feature if the value is empty.","Diese Funktion wird deaktiviert, wenn der Wert leer ist.",module,Magento_User
 "Lockout Time (minutes)","Sperrzeit (Minuten)",module,Magento_User
 "Password Lifetime (days)","Passwort-Gültigkeitsdauer (in Tagen)",module,Magento_User
 "Password Change","Passwort ändern",module,Magento_User
