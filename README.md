@@ -7,11 +7,11 @@ For our other language packs look at the [Magento2Translations](http://magento2t
 
 # Version & progress
 This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/de#/Head) at Crowdin and based on the Magento 2.2.0 sourcefiles.
-There have been  5650 strings translated of the 8763 strings in the Magento source.
+There have been  5671 strings translated of the 8763 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/64)
+Translation progress:![Progress](http://progressed.io/bar/65)
 
-# Instalation
+# Installation
 **Please select the git branch appropriate for your magento version from this repo.**
 ## Via composer
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
