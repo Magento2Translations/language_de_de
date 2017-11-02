@@ -474,7 +474,7 @@ Always,Immer,module,Magento_Captcha
 "Only %1 left","Nur noch %1 verfügbar",module,Magento_CatalogInventory
 "Product Name",Artikelname,module,Magento_CatalogInventory
 Qty,Menge,module,Magento_CatalogInventory
-"Catalog Price Rule","Falsche Regel festgelegt.",module,Magento_CatalogRule
+"Catalog Price Rule",Katalog-Preisregel,module,Magento_CatalogRule
 "Add New Rule","Neue Regel",module,Magento_CatalogRule
 "Apply Rules","Regeln anwenden",module,Magento_CatalogRule
 "Save and Apply","Speichern und anwenden",module,Magento_CatalogRule
@@ -564,7 +564,7 @@ Position,Reihenfolge,module,Magento_Catalog
 "Add Subcategory","Neue Unterkategorie",module,Magento_Catalog
 "Add Root Category","Neue Haupt-Kategorie",module,Magento_Catalog
 Day,Tag,module,Magento_Catalog
-Month,Jahr,module,Magento_Catalog
+Month,Monat,module,Magento_Catalog
 Year,Jahr,module,Magento_Catalog
 "<label class=""label""><span>from</span></label>","<label class=""label""> <span>von</span></label>",module,Magento_Catalog
 "<label class=""label""><span>to</span></label>","<label class=""label""> <span>bis</span></label>",module,Magento_Catalog
@@ -1873,6 +1873,7 @@ Cancel,Speichern,module,Magento_Paypal
 Order,Bestellung,module,Magento_Paypal
 "Order Total",Bestellsumme,module,Magento_Paypal
 "PayPal Settlement Reports","PayPal Abrechnungen",module,Magento_Paypal
+"Fetch Updates","Aktualisierungen abrufen",module,Magento_Paypal
 Help,Hilfe,module,Magento_Paypal
 Configure,Konfigurieren,module,Magento_Paypal
 Close,Schließen,module,Magento_Paypal
@@ -1890,10 +1891,12 @@ Sales,Verkäufe,module,Magento_Paypal
 "View Transaction","Transaktion anzeigen",module,Magento_Paypal
 "The billing agreement ""%1"" has been canceled.","Die Abrechnungsvereinbarung ""%1"" wurde abgebrochen.",module,Magento_Paypal
 "The billing agreement ""%1"" has been created.","Die Abrechnungsvereinbarung ""%1"" wurde erstellt.",module,Magento_Paypal
+"Express Checkout and Order have been canceled.","Express-Checkout und Bestellung wurde abgebrochen.",module,Magento_Paypal
 "Express Checkout has been canceled.","Express-Checkout wurde abgebrochen.",module,Magento_Paypal
 "Unable to cancel Express Checkout","Express-Checkout kann nicht abgebrochen werden",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","Bitte lesen und akzeptieren Sie alle AGB, bevor Sie Ihre Bestellung aufgeben.",module,Magento_Paypal
 "PayPal response hasn't required fields.","PayPal Antwort hat keine erforderliche Felder.",module,Magento_Paypal
+"PayPal gateway has rejected request. %1","Das Paypal-gateway hat die Anfrage abgewiesen. %1",module,Magento_Paypal
 "Unable to save Billing Agreement:","Zahlungsvereinbarung kann nicht gespeichert werden:",module,Magento_Paypal
 Active,Aktiv,module,Magento_Paypal
 Canceled,Storniert,module,Magento_Paypal
@@ -1902,6 +1905,10 @@ Canceled,Storniert,module,Magento_Paypal
 "The PayPal certificate does not exist.","Das PayPal-Zertifikat ist nicht vorhanden.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","Wir bevorzugen PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","Wir bevorzugen PayPal (150 X 60)",module,Magento_Paypal
+"Now accepting PayPal (150 X 60)","Wir akzeptieren PayPal (150 x 60)",module,Magento_Paypal
+"Now accepting PayPal (150 X 40)","Wir akzeptieren PayPal (150 x 40)",module,Magento_Paypal
+"Payments by PayPal (150 X 60)","Zahlungen per PayPal (150 x 60)",module,Magento_Paypal
+"Payments by PayPal (150 X 40)","Zahlungen per PayPal (150 x 40)",module,Magento_Paypal
 Dynamic,Dynamisch,module,Magento_Paypal
 Static,Statisch,module,Magento_Paypal
 Shortcut,Verknüpfung,module,Magento_Paypal
@@ -1910,8 +1917,10 @@ Authorization,"Versand an",module,Magento_Paypal
 Yes,Ja,module,Magento_Paypal
 No,Keine,module,Magento_Paypal
 Never,Niemals,module,Magento_Paypal
+"IPN (Instant Payment Notification) Only","Nur IPN (Instant Payment Notification)",module,Magento_Paypal
 "API Signature",API-Signatur,module,Magento_Paypal
 "API Certificate",API-Zertifikat,module,Magento_Paypal
+"The merchant account is not yet verified.","Das Händlerkonto wurde noch nicht verifiziert.",module,Magento_Paypal
 "A case that has been resolved and close requires a reimbursement.","Ein Vorfall, der bereits gelöst und geschlossen ist, erfordert eine Erstattung.",module,Magento_Paypal
 "Note: %1","Hinweis: %1",module,Magento_Paypal
 "Report Date","Datum des Berichts",module,Magento_Paypal
@@ -2997,7 +3006,7 @@ Total:,Gesamtsumme:,module,Magento_Checkout
 "Add Products to New Option","Füge Artikel zur neuen Option hinzu",module,Magento_Bundle
 "Add Products to Option ""%1""","Füge Artikel zur Option ""%1"" hinzu",module,Magento_Bundle
 "Add Selected Products","Füge ausgewählte Artikel hinzu",module,Magento_Bundle
-Cancel,Speichern,module,Magento_Catalog
+Cancel,Abbrechen,module,Magento_Catalog
 "Configure Product","Konfiguriere Produkt",module,Magento_Catalog
 "New Option","Neue Option",module,Magento_Catalog
 "Select Product","Artikel auswählen",module,Magento_Catalog
@@ -3246,9 +3255,15 @@ Rule,Regel,module,Magento_CatalogRule
 Storefront,Ladenansicht,module,Magento_Catalog
 Comma-separated.,"Durch Kommata getrennt.",module,Magento_Catalog
 "Must be in the allowed values list","Muss in der Liste zulässiger Werte vorhanden sein",module,Magento_Catalog
+"Use Flat Catalog Category","Flache Kategorien-Tabelle nutzen",module,Magento_Catalog
+"Use Flat Catalog Product","Flache Produkt-Tabelle nutzen",module,Magento_Catalog
 "Product Listing Sort by","Artikelauflistung sortiert nach",module,Magento_Catalog
+"Allow All Products per Page","Erlaube alle Artikel pro Seite",module,Magento_Catalog
 "Product Image Placeholders","Platzhalter für Artikelbilder",module,Magento_Catalog
 "Search Engine Optimization",Suchmaschinenoptimierung,module,Magento_Catalog
+"Page Title Separator",Seitentitel-Trenner,module,Magento_Catalog
+"Use Canonical Link Meta Tag For Categories","Canonical-Metatag für Kategorien verwenden",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Products","Canonical-Metatag für Produkte verwenden",module,Magento_Catalog
 "Catalog Price Scope","Gültigkeitsbereich des Katalogpreises",module,Magento_Catalog
 "Maximal Depth","Maximale Tiefe",module,Magento_Catalog
 "Time Format",Zeitformat,module,Magento_Catalog
