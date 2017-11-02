@@ -635,7 +635,7 @@ Reset,Zurücksetzen,module,Magento_CatalogRule
 "Save and Apply","Speichern und anwenden",module,Magento_CatalogRule
 "Save and Continue Edit","Speichern und weiter bearbeiten",module,Magento_CatalogRule
 Save,Speichern,module,Magento_CatalogRule
-"Catalog Price Rule","Falsche Regel festgelegt.",module,Magento_CatalogRule
+"Catalog Price Rule",Katalog-Preisregel,module,Magento_CatalogRule
 "Add New Rule","Neue Regel",module,Magento_CatalogRule
 "Apply Rules","Regeln anwenden",module,Magento_CatalogRule
 Conditions,Bedingungen,module,Magento_CatalogRule
@@ -733,7 +733,7 @@ Position,Reihenfolge,module,Magento_Catalog
 "Add Subcategory","Neue Unterkategorie",module,Magento_Catalog
 "Add Root Category","Neue Haupt-Kategorie",module,Magento_Catalog
 Day,Tag,module,Magento_Catalog
-Month,Jahr,module,Magento_Catalog
+Month,Monat,module,Magento_Catalog
 Year,Jahr,module,Magento_Catalog
 "<label class=""label""><span>from</span></label>","<label class=""label""> <span>von</span></label>",module,Magento_Catalog
 "<label class=""label""><span>to</span></label>","<label class=""label""> <span>bis</span></label>",module,Magento_Catalog
@@ -743,7 +743,7 @@ Year,Jahr,module,Magento_Catalog
 label,Kennzeichen,module,Magento_Catalog
 "Product Attributes",Artikelattribute,module,Magento_Catalog
 "Add New Attribute","Attribut speichern",module,Magento_Catalog
-Cancel,Speichern,module,Magento_Catalog
+Cancel,Abbrechen,module,Magento_Catalog
 "Save Attribute","Attribut speichern",module,Magento_Catalog
 "Save in New Attribute Set","In neuer Merkmalgruppe speichern",module,Magento_Catalog
 "Enter Name for New Attribute Set","Benennen der Merkmalgruppe",module,Magento_Catalog
@@ -1081,6 +1081,7 @@ Search,Suche,module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","Produkt mit SKU ""%1"" ist nicht vorhanden",module,Magento_Catalog
 "Invalid product data: %1","Ungültige Produktdaten: %1",module,Magento_Catalog
 "Unable to remove product %1","Produkt %1 konnte nicht gelöscht werden",module,Magento_Catalog
+"We cannot determine the field name.","Feldname kann nicht bestimmt werden.",module,Magento_Catalog
 "Attribute '%1' is locked. %2","Attribut '%1' ist gesperrt. %2",module,Magento_Catalog
 "Do not change the scope. %1","Ändern Sie nicht den Bereich. %1",module,Magento_Catalog
 "A product type is not defined for the indexer.","Eine Artikelart ist noch nicht definiert für den Indexer.",module,Magento_Catalog
@@ -2774,6 +2775,7 @@ Purchased,Gekauft,module,Magento_Paypal
 "Ship-to Name",Versandname,module,Magento_Paypal
 "Order Total",Bestellsumme,module,Magento_Paypal
 "PayPal Settlement Reports","PayPal Abrechnungen",module,Magento_Paypal
+"Fetch Updates","Aktualisierungen abrufen",module,Magento_Paypal
 Help,Hilfe,module,Magento_Paypal
 Configure,Konfigurieren,module,Magento_Paypal
 Close,Schließen,module,Magento_Paypal
@@ -2798,6 +2800,7 @@ Sales,Verkäufe,module,Magento_Paypal
 "We can't start the billing agreement wizard.","Wir konnten den Abrechnungsvereinbarung -Assistent nicht starten.",module,Magento_Paypal
 "Billing Agreement # %1","Zahlungsvereinbarung # %1",module,Magento_Paypal
 "We can't initialize Express Checkout.","Wir konnten die Express-Kaufabwicklung nicht initialisieren.",module,Magento_Paypal
+"Express Checkout and Order have been canceled.","Express-Checkout und Bestellung wurde abgebrochen.",module,Magento_Paypal
 "Express Checkout has been canceled.","Express-Checkout wurde abgebrochen.",module,Magento_Paypal
 "Unable to cancel Express Checkout","Express-Checkout kann nicht abgebrochen werden",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","Bitte lesen und akzeptieren Sie alle AGB, bevor Sie Ihre Bestellung aufgeben.",module,Magento_Paypal
@@ -2808,7 +2811,10 @@ Sales,Verkäufe,module,Magento_Paypal
 "We can't start Express Checkout.","Wir konnten Express-Kaufabwicklung nicht starten.",module,Magento_Paypal
 "Sorry, but something went wrong","Verzeihung, aber etwas ist schiefgegangen",module,Magento_Paypal
 "Would you like to sign a billing agreement to streamline further purchases with PayPal?","Möchten Sie eine Zahlungsvereinbarung unterzeichnen, um weitere Einkäufe mit PayPal zu beschleunigen?",module,Magento_Paypal
+"Error processing payment, please try again later.","Bei der Bezahlung ist ein Fehler aufgetreten. Bitte versuchen Sie es später nocheinmal.",module,Magento_Paypal
 "PayPal response hasn't required fields.","PayPal Antwort hat keine erforderliche Felder.",module,Magento_Paypal
+"PayPal gateway has rejected request. %1","Das Paypal-gateway hat die Anfrage abgewiesen. %1",module,Magento_Paypal
+"The PayPal gateway rejected the request. %1","Das Paypal-gateway hat die Anfrage abgewiesen. %1",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Es tut mir leid - aber wir waren nicht in der Lage, Ihre Zahlung zu verarbeiten. Bitte versuchen Sie eine andere Zahlungsmethode oder kontaktieren Sie uns, damit wir Ihnen weiterhelfen können.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Es tut mir leid - aber wir sind nicht in der Lage, Ihre Transaktion abzuschließen. Bitte kontaktieren Sie uns, damit wir Ihnen weiterhelfen können.",module,Magento_Paypal
 "Unable to save Billing Agreement:","Zahlungsvereinbarung kann nicht gespeichert werden:",module,Magento_Paypal
@@ -2819,6 +2825,10 @@ Canceled,Storniert,module,Magento_Paypal
 "The PayPal certificate does not exist.","Das PayPal-Zertifikat ist nicht vorhanden.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","Wir bevorzugen PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","Wir bevorzugen PayPal (150 X 60)",module,Magento_Paypal
+"Now accepting PayPal (150 X 60)","Wir akzeptieren PayPal (150 x 60)",module,Magento_Paypal
+"Now accepting PayPal (150 X 40)","Wir akzeptieren PayPal (150 x 40)",module,Magento_Paypal
+"Payments by PayPal (150 X 60)","Zahlungen per PayPal (150 x 60)",module,Magento_Paypal
+"Payments by PayPal (150 X 40)","Zahlungen per PayPal (150 x 40)",module,Magento_Paypal
 Dynamic,Dynamisch,module,Magento_Paypal
 Static,Statisch,module,Magento_Paypal
 Shortcut,Verknüpfung,module,Magento_Paypal
@@ -2827,6 +2837,7 @@ Authorization,"Versand an",module,Magento_Paypal
 Yes,Ja,module,Magento_Paypal
 No,Keine,module,Magento_Paypal
 Never,Niemals,module,Magento_Paypal
+"IPN (Instant Payment Notification) Only","Nur IPN (Instant Payment Notification)",module,Magento_Paypal
 "API Signature",API-Signatur,module,Magento_Paypal
 "API Certificate",API-Zertifikat,module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","Wir werden eine Höhe von %1 autorisieren, sobald das Payment-Gateway es genehmigt.",module,Magento_Paypal
@@ -2834,10 +2845,12 @@ Never,Niemals,module,Magento_Paypal
 "This customer didn't include a confirmed address.","Dieser Kunde hat keine bestätigte Adresse.",module,Magento_Paypal
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.","Der Händler hat kein US-Konto und keinen Rückzug-Mechanismus.",module,Magento_Paypal
 "The payment currency doesn't match any of the merchant's balances currency.","Die Zahlungswährung entspricht keine Salden Währung des Händlers.",module,Magento_Paypal
+"The merchant account is not yet verified.","Das Händlerkonto wurde noch nicht verifiziert.",module,Magento_Paypal
 "A case that has been resolved and close requires a reimbursement.","Ein Vorfall, der bereits gelöst und geschlossen ist, erfordert eine Erstattung.",module,Magento_Paypal
 "Buyer's Tax ID","Steuernummer des Käufers",module,Magento_Paypal
 "Buyer's Tax ID Type","Umsatzsteuer-ID-Typ des Käufers",module,Magento_Paypal
 "Note: %1","Hinweis: %1",module,Magento_Paypal
+"Error processing payment. Please try again later.","Bei der Bezahlung ist ein Fehler aufgetreten. Bitte versuchen Sie es später nocheinmal.",module,Magento_Paypal
 "We can't issue a refund transaction because there is no capture transaction.","Wir können keine Rückerstattung erteilen, weil es keine Empfang-Transaktion gibt.",module,Magento_Paypal
 "Report Date","Datum des Berichts",module,Magento_Paypal
 "Merchant Account",Händler-Konto,module,Magento_Paypal
@@ -4480,6 +4493,7 @@ Delete,Löschen,module,Magento_GiftMessage
 "Place Order","Jetzt kaufen",module,Magento_Payment
 "Forgot an Item?","Artikel vergessen?",module,Magento_Payment
 "Edit Your Cart","Warenkorb bearbeiten",module,Magento_Payment
+"Continue to PayPal","Weiter zu PayPal",module,Magento_Paypal
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Aktivieren Sie 'Angemeldet bleiben', um von diesem Computer auf Ihren Warenkorb zugreifen, auch wenn Sie nicht angemeldet sind.",module,Magento_Persistent
 "Apply Discount Code","Gutscheincode anwenden",module,Magento_SalesRule
 "Enter discount code","Gutscheincode eingeben",module,Magento_SalesRule
@@ -4894,7 +4908,7 @@ Stock,Lagerbestand,module,Magento_CatalogInventory
 "Qty Uses Decimals","Menge verwendet Dezimalzahlen",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Versand in mehreren Lieferungen zulassen",module,Magento_CatalogInventory
 "Catalog Rule Product",Katalogregelprodukt,module,Magento_CatalogRule
-"Catalog Product Rule",Produkt-Katalog-Regel,module,Magento_CatalogRule
+"Catalog Product Rule",Katalog-Preisregel,module,Magento_CatalogRule
 "Indexed product/rule association","Indizierte Produkt/Regel-Verbindung",module,Magento_CatalogRule
 Rule,Regel,module,Magento_CatalogRule
 Start,Starten,module,Magento_CatalogRule
@@ -4937,9 +4951,15 @@ Inventory,Inventar,module,Magento_Catalog
 Storefront,Ladenansicht,module,Magento_Catalog
 Comma-separated.,"Durch Kommata getrennt.",module,Magento_Catalog
 "Must be in the allowed values list","Muss in der Liste zulässiger Werte vorhanden sein",module,Magento_Catalog
+"Use Flat Catalog Category","Flache Kategorien-Tabelle nutzen",module,Magento_Catalog
+"Use Flat Catalog Product","Flache Produkt-Tabelle nutzen",module,Magento_Catalog
 "Product Listing Sort by","Artikelauflistung sortiert nach",module,Magento_Catalog
+"Allow All Products per Page","Erlaube alle Artikel pro Seite",module,Magento_Catalog
 "Product Image Placeholders","Platzhalter für Artikelbilder",module,Magento_Catalog
 "Search Engine Optimization",Suchmaschinenoptimierung,module,Magento_Catalog
+"Page Title Separator",Seitentitel-Trenner,module,Magento_Catalog
+"Use Canonical Link Meta Tag For Categories","Canonical-Metatag für Kategorien verwenden",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Products","Canonical-Metatag für Produkte verwenden",module,Magento_Catalog
 "Catalog Price Scope","Gültigkeitsbereich des Katalogpreises",module,Magento_Catalog
 "Maximal Depth","Maximale Tiefe",module,Magento_Catalog
 "Time Format",Zeitformat,module,Magento_Catalog
