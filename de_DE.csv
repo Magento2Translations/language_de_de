@@ -1479,7 +1479,9 @@ Add,Hinzufügen,module,Magento_Config
 Enable,Aktivieren,module,Magento_Config
 Disable,Deaktivieren,module,Magento_Config
 Configuration,Konfiguration,module,Magento_Config
+"Class for type ""%1"" was not declared","Klasse vom Typ ""%1"" wurde nicht deklariert",module,Magento_Config
 "%1 should implement %2","%1 sollten %2 implementieren",module,Magento_Config
+"Configuration for path: ""%1"" doesn't exist","Konfiguration für Pfad: ""%1"" ist nicht vorhanden",module,Magento_Config
 "You saved the configuration.","Konfiguration wurde gespeichert.",module,Magento_Config
 "Something went wrong while saving this configuration:","Beim Speichern der Einstellungen ist ein Fehler aufgetreten:",module,Magento_Config
 "Page not found.","Seite nicht gefunden.",module,Magento_Config
@@ -1529,6 +1531,7 @@ Specified,festgelegt,module,Magento_Config
 test,Test,module,Magento_Config
 "Add after","Einfügen nach",module,Magento_Config
 Delete,Löschen,module,Magento_Config
+"Current Configuration Scope:","Aktueller Konfigurationsbereich:",module,Magento_Config
 Stores,Shops,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Hinzufügen von konfigurierbaren Attributen zum aktuellen Attributset (""%1"")",module,Magento_ConfigurableProduct
 "Add configurable attributes to the new Attribute Set based on current","Hinzufügen von konfigurierbarem Attribut zu einem neuen Attributset, das auf dem Aktuellen basiert",module,Magento_ConfigurableProduct
@@ -4066,12 +4069,18 @@ Custom,Benutzerdefiniert,module,Magento_UrlRewrite
 "Anchor symbol (#) is not supported in request path.","Ankersymbol (#) wird in Anforderungspfad nicht unterstützt.",module,Magento_UrlRewrite
 "Do not use two or more consecutive slashes in the url rewrite suffix.","Verwenden Sie zwei oder mehr aufeinanderfolgende Schrägstriche in der Url Rewrite Suffix nicht.",module,Magento_UrlRewrite
 "Anchor symbol (#) is not supported in url rewrite suffix.","Ankersymbol (#) wird im Url Rewrite Suffix nicht unterstützt.",module,Magento_UrlRewrite
+"URL key for specified store already exists","URL-Key für den ausgewählten Store existiert bereits",module,Magento_UrlRewrite
+"Exception instance doesn't match %1 type","Ausnahmeinstanz stimmt nicht mit %1 Typ überein",module,Magento_UrlRewrite
 No,Keine,module,Magento_UrlRewrite
 "Temporary (302)","Temporär (302)",module,Magento_UrlRewrite
 "Request Path for Specified Store","Pfad für ausgewählten Store anfordern",module,Magento_UrlRewrite
 "URL key for specified store already exists.","URL-Key für den ausgewählten Store existiert bereits.",module,Magento_UrlRewrite
+"message %1","Nachricht %1",module,Magento_UrlRewrite
+message,Nachricht,module,Magento_UrlRewrite
 "Custom storage message","Benutzerdefinierte Speicher Meldung",module,Magento_UrlRewrite
 "Select Category","Kategorie auswählen",module,Magento_UrlRewrite
+"The value specified in the URL Key field would generate a URL that already exists.","Der im Feld ""URL-Key"" spezifizierte Wert würde eine URL generieren, die bereits vorhanden ist.",module,Magento_UrlRewrite
+"To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:","Um diesen Konflikt zu beheben, können Sie entweder den Wert des Feldes URL-Key (befindet sich im Abschnitt Suchmaschinenoptimierung) in einen eindeutigen Wert ändern oder die Felder der Anfragepfade an allen Orten ändern, die unten aufgeführten sind:",module,Magento_UrlRewrite
 Back,Zurück,module,Magento_User
 Reset,Zurücksetzen,module,Magento_User
 "Delete Role","Sie können Ihr eigenes Benutzerkonto nicht löschen.",module,Magento_User
@@ -5127,6 +5136,7 @@ Enable,Aktivieren,module,Magento_Cms
 "Tab Label",Registerbezeichnung,module,Magento_Config
 "Allow everything","Alles erlauben",module,Magento_Config
 Dashboard,Übersicht,module,Magento_Config
+"Manage Stores","Stores verwalten",module,Magento_Config
 "Field 2","Feld 2",module,Magento_Config
 "Field 3","Feld 3",module,Magento_Config
 "Field 3.1","Feld 3.1",module,Magento_Config
@@ -5547,6 +5557,7 @@ ID,Id,module,Magento_Sitemap
 "Last Generated","Zuletzt generiert",module,Magento_Sitemap
 Action,Aktion,module,Magento_Sitemap
 Configuration,Konfiguration,module,Magento_Store
+Swatches,Muster,module,Magento_Swatches
 "Swatches per Product","Muster je Artikel",module,Magento_Swatches
 CSV,"Excel XML",module,Magento_TaxImportExport
 "Excel XML",Excel-XML,module,Magento_TaxImportExport
