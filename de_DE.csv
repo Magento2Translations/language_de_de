@@ -1479,7 +1479,9 @@ Add,Hinzufügen,module,Magento_Config
 Enable,Aktivieren,module,Magento_Config
 Disable,Deaktivieren,module,Magento_Config
 Configuration,Konfiguration,module,Magento_Config
+"Class for type ""%1"" was not declared","Klasse vom Typ ""%1"" wurde nicht deklariert",module,Magento_Config
 "%1 should implement %2","%1 sollten %2 implementieren",module,Magento_Config
+"Configuration for path: ""%1"" doesn't exist","Konfiguration für Pfad: ""%1"" ist nicht vorhanden",module,Magento_Config
 "You saved the configuration.","Konfiguration wurde gespeichert.",module,Magento_Config
 "Something went wrong while saving this configuration:","Beim Speichern der Einstellungen ist ein Fehler aufgetreten:",module,Magento_Config
 "Page not found.","Seite nicht gefunden.",module,Magento_Config
@@ -1529,6 +1531,7 @@ Specified,festgelegt,module,Magento_Config
 test,Test,module,Magento_Config
 "Add after","Einfügen nach",module,Magento_Config
 Delete,Löschen,module,Magento_Config
+"Current Configuration Scope:","Aktueller Konfigurationsbereich:",module,Magento_Config
 Stores,Shops,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Hinzufügen von konfigurierbaren Attributen zum aktuellen Attributset (""%1"")",module,Magento_ConfigurableProduct
 "Add configurable attributes to the new Attribute Set based on current","Hinzufügen von konfigurierbarem Attribut zu einem neuen Attributset, das auf dem Aktuellen basiert",module,Magento_ConfigurableProduct
@@ -5127,6 +5130,7 @@ Enable,Aktivieren,module,Magento_Cms
 "Tab Label",Registerbezeichnung,module,Magento_Config
 "Allow everything","Alles erlauben",module,Magento_Config
 Dashboard,Übersicht,module,Magento_Config
+"Manage Stores","Stores verwalten",module,Magento_Config
 "Field 2","Feld 2",module,Magento_Config
 "Field 3","Feld 3",module,Magento_Config
 "Field 3.1","Feld 3.1",module,Magento_Config
