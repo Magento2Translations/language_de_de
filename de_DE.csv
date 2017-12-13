@@ -1524,6 +1524,7 @@ Specified,festgelegt,module,Magento_Config
 test,Test,module,Magento_Config
 "Add after","Einfügen nach",module,Magento_Config
 Delete,Löschen,module,Magento_Config
+"Current Configuration Scope:","Aktueller Konfigurationsbereich:",module,Magento_Config
 Stores,Shops,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Hinzufügen von konfigurierbaren Attributen zum aktuellen Attributset (""%1"")",module,Magento_ConfigurableProduct
 "Add configurable attributes to the new Attribute Set based on current","Hinzufügen von konfigurierbarem Attribut zu einem neuen Attributset, das auf dem Aktuellen basiert",module,Magento_ConfigurableProduct
