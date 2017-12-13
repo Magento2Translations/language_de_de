@@ -1514,6 +1514,7 @@ Specified,festgelegt,module,Magento_Config
 test,Test,module,Magento_Config
 "Add after","Einfügen nach",module,Magento_Config
 Delete,Löschen,module,Magento_Config
+"Current Configuration Scope:","Aktueller Konfigurationsbereich:",module,Magento_Config
 Stores,Shops,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Hinzufügen von konfigurierbaren Attributen zum aktuellen Attributset (""%1"")",module,Magento_ConfigurableProduct
 "Add configurable attributes to the new Attribute Set based on current","Hinzufügen von konfigurierbarem Attribut zu einem neuen Attributset, das auf dem Aktuellen basiert",module,Magento_ConfigurableProduct
@@ -5110,6 +5111,7 @@ Enable,Aktivieren,module,Magento_Cms
 "Tab Label",Registerbezeichnung,module,Magento_Config
 "Allow everything","Alles erlauben",module,Magento_Config
 Dashboard,Übersicht,module,Magento_Config
+"Manage Stores","Stores verwalten",module,Magento_Config
 "Field 2","Feld 2",module,Magento_Config
 "Field 3","Feld 3",module,Magento_Config
 "Field 3.1","Feld 3.1",module,Magento_Config
