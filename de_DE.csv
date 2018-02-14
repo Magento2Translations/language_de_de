@@ -734,7 +734,7 @@ Search,Suche,module,Magento_CatalogSearch
 name,Name,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Nicht gefunden, wonach Sie suchen?",module,Magento_CatalogSearch
 "Your search returned no results.","Ihre Suche ergab keine Treffer.",module,Magento_CatalogSearch
-"Create Permanent Redirect for old URL","Kategoriepfad für Artikel URLs verwenden",module,Magento_CatalogUrlRewrite
+"Create Permanent Redirect for old URL","Permanente Weiterleitung (301) für die alte URL anlegen",module,Magento_CatalogUrlRewrite
 "Conditions Combination",Bedingungs-Kombination,module,Magento_CatalogWidget
 "Product Attribute",Artikelattribut,module,Magento_CatalogWidget
 SKU,Artikelnummer,module,Magento_CatalogWidget
@@ -769,7 +769,7 @@ Year,Jahr,module,Magento_Catalog
 "Add Product","Neuer Artikel",module,Magento_Catalog
 label,Kennzeichen,module,Magento_Catalog
 "Product Attributes",Artikelattribute,module,Magento_Catalog
-"Add New Attribute","Attribut speichern",module,Magento_Catalog
+"Add New Attribute","Neues Attribut",module,Magento_Catalog
 "Save in New Attribute Set","In neuem Attribut-Set speichern",module,Magento_Catalog
 "Enter Name for New Attribute Set","Namen für neues Attribut-Set eingeben",module,Magento_Catalog
 "Save and Continue Edit","Speichern und weiter bearbeiten",module,Magento_Catalog
@@ -799,9 +799,9 @@ Scope,Geltungsbereich,module,Magento_Catalog
 "Enable WYSIWYG","WYSIWYG aktivieren",module,Magento_Catalog
 "Allow HTML Tags on Storefront","HTML im Frontend erlauben",module,Magento_Catalog
 "Visible on Catalog Pages on Storefront","Auf Katalogseiten im Frontend sichtbar",module,Magento_Catalog
-"Used in Product Listing","In der Kategorieansicht verfügbar",module,Magento_Catalog
+"Used in Product Listing","In Artikelliste verwendet",module,Magento_Catalog
 "Depends on design theme","Abhängig vom Design-Theme",module,Magento_Catalog
-"Used for Sorting in Product Listing","Für die Sortierung in der Kategorieansicht verfügbar",module,Magento_Catalog
+"Used for Sorting in Product Listing","Für die Sortierung in der Artikelliste verfügbar",module,Magento_Catalog
 "Media Image",Bild,module,Magento_Catalog
 Gallery,Gallerie,module,Magento_Catalog
 "System Properties",Systemeigenschaften,module,Magento_Catalog
@@ -829,7 +829,7 @@ Save,Speichern,module,Magento_Catalog
 "New Set Name","Neuer Set Name",module,Magento_Catalog
 "Edit Attribute Set '%1'","Attribut-Set '%1' bearbeiten",module,Magento_Catalog
 Empty,Zeige,module,Magento_Catalog
-"Add Attribute","Merkmal hinzufügen",module,Magento_Catalog
+"Add Attribute","Attribut hinzufügen",module,Magento_Catalog
 "Add New Group","Neue Gruppe",module,Magento_Catalog
 "Add Group","Gruppe hinzufügen",module,Magento_Catalog
 "Edit Attribute Set Name","Name des Attribut-Sets bearbeiten",module,Magento_Catalog
@@ -986,7 +986,7 @@ All,Alle,module,Magento_Catalog
 "We can't move the category because the parent category name matches the child category name.","Wir können die Kategorie nicht verschieben, da der Name der übergeordneten Kategorie mit dem der Kind-Kategorie übereinstimmt.",module,Magento_Catalog
 "Can't delete root category.","Root-Kategorie kann nicht gelöscht werden.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","Der Wert des Attributs ""%1"" muss einmalig sein.",module,Magento_Catalog
-"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Vorgegebene Produktlistensortierung existiert nicht in der Listensortierung für verfügbare Produkte.",module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Standardsortierung der Artikelliste steht in den verfügbaren Sortierungen nicht zur Auswahl.",module,Magento_Catalog
 "No layout updates","Keine Layout Aktualisierungen",module,Magento_Catalog
 "Products only","Nur Produkte",module,Magento_Catalog
 "Static block only","Nur statischer Block",module,Magento_Catalog
@@ -1991,7 +1991,7 @@ Login,Anmelden,module,Magento_Customer
 Gender,Geschlecht,module,Magento_Customer
 "Tax/VAT number",USt-IdNr,module,Magento_Customer
 "Format for IDE '%1' is not supported","Format für IDE '%1' wird nicht unterstützt",module,Magento_Developer
-"Client side less compilation","Leer lassen für den Zugriff von jeder beliebigen IP.",module,Magento_Developer
+"Client side less compilation","Client-seitige .less Kompilierung",module,Magento_Developer
 "Server side less compilation","Server-seitige .less Kompilierung",module,Magento_Developer
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Fehler beim Abfragen des Trackings",module,Magento_Dhl
 "Wrong Content Type","Falscher Content-Type",module,Magento_Dhl
@@ -2175,7 +2175,7 @@ Letters,Buchstaben,module,Magento_Eav
 "Text Field","Einzeiliges Textfeld",module,Magento_Eav
 "Text Area","Mehrzeiliger Text",module,Magento_Eav
 Date,Datum,module,Magento_Eav
-Yes/No,URL,module,Magento_Eav
+Yes/No,Ja/Nein,module,Magento_Eav
 "Multiple Select","Mehrfach Auswahl",module,Magento_Eav
 "Input type ""%value%"" not found in the input types list.","Eingabetyp ""%value"" wurde in der Eingabetyp-Liste nicht gefunden.",module,Magento_Eav
 "Attribute object is undefined","Attribut Objekt ist nicht definiert",module,Magento_Eav
@@ -2376,7 +2376,7 @@ Kilograms,Kilogramm,module,Magento_Fedex
 status,Status,module,Magento_Fedex
 "Empty response","Leere Antwort",module,Magento_Fedex
 None,Keine,module,Magento_Fedex
-"Gift Messages is not applicable for empty cart","Unbekannter Entitätstyp",module,Magento_GiftMessage
+"Gift Messages is not applicable for empty cart","Geschenknachrichten sind bei einem leeren Warenkorb nicht anwendbar",module,Magento_GiftMessage
 "Gift Messages is not applicable for virtual products","Geschenkgutscheine können bei virtuellen Produkten nicht verwendet werden",module,Magento_GiftMessage
 "Gift Message is not available","Geschenknachricht ist nicht verfügbar",module,Magento_GiftMessage
 "Could not add gift message to shopping cart","Konnte keine Geschenknachricht zum Warenkorb hinzufügen",module,Magento_GiftMessage
@@ -2395,9 +2395,14 @@ Message,Nachricht,module,Magento_GiftMessage
 Cancel,Abbrechen,module,Magento_GiftMessage
 "Gift Options",Geschenkoptionen,module,Magento_GiftMessage
 "Gift Message",Geschenknachricht,module,Magento_GiftMessage
+"Add gift options","Geschenkoptionen hinzufügen",module,Magento_GiftMessage
+"Gift Options for the Entire Order","Geschenkoptionen für die gesamte Bestellung",module,Magento_GiftMessage
 "Leave this box blank if you don't want to leave a gift message for the entire order.","Lassen Sie dieses Feld leer wenn sie keinen Geschenkgutschein für die gesamte Bestellung benützen möchten.",module,Magento_GiftMessage
+"Gift Options for Individual Items","Geschenkoptionen für einzelne Artikel",module,Magento_GiftMessage
 "Leave a box blank if you don't want to add a gift message for that item.","Lassen Sie ein Feld leer wenn sie für dieses Produkt einen Geschenkgutschein verwenden möchten.",module,Magento_GiftMessage
+"Add Gift Options for the Entire Order","Geschenkoptionen für die gesamte Bestellung hinzufügen",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for this address.","Sie können dieses Feld leer lassen wenn sie für diese Adresse keinen Geschenkgutschein verwenden möchten.",module,Magento_GiftMessage
+"Add gift options for Individual Items","Geschenkoptionen für einzelne Artikel hinzufügen",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for the item.","Sie können dieses Feld leer lassen wenn sie für dieses Produkt keinen Geschenkgutschein verwenden möchten.",module,Magento_GiftMessage
 Dynamic,Dynamisch,module,Magento_GoogleAdwords
 "Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","Farbton-Wert ""%1"" ist ungültig. Bitte geben Sie einen sechsstelligen Hexadezimalwert ein.",module,Magento_GoogleAdwords
@@ -2559,12 +2564,12 @@ All,Alle,module,Magento_Integration
 "Filterable (with results)","Filterbar (mit Ergebnissen)",module,Magento_LayeredNavigation
 "Filterable (no results)","Filterbar (keine Ergebnisse)",module,Magento_LayeredNavigation
 No,Nein,module,Magento_LayeredNavigation
-"Use in Layered Navigation","In erweiterter Navigation verwenden",module,Magento_LayeredNavigation
+"Use in Layered Navigation","In Filternavigation verwenden",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","Kann nur mit Katalog Eingabetyp Dropdown, Multiple Select und Price verwendet werden",module,Magento_LayeredNavigation
-"Use in Search Results Layered Navigation","Verwende Layered Navigation in Suchresultaten",module,Magento_LayeredNavigation
+"Use in Search Results Layered Navigation","Filternavigation auf Suchergebnisseiten verwenden",module,Magento_LayeredNavigation
 Position,Reihenfolge,module,Magento_LayeredNavigation
-"Position in Layered Navigation","Position in der Layered Navigation",module,Magento_LayeredNavigation
-"Position of attribute in layered navigation block","Position des Attributs im Layered Navigation Block",module,Magento_LayeredNavigation
+"Position in Layered Navigation","Position in Filternavigation",module,Magento_LayeredNavigation
+"Position of attribute in layered navigation block","Position des Attributs in der Filternavigation",module,Magento_LayeredNavigation
 item,Artikel,module,Magento_LayeredNavigation
 items,Artikel,module,Magento_LayeredNavigation
 "Now Shopping by",Einkaufsoptionen,module,Magento_LayeredNavigation
@@ -3624,6 +3629,7 @@ unhold,wiederaufnehmen,module,Magento_Sales
 Invoice,Rechnung,module,Magento_Sales
 Ship,Versand,module,Magento_Sales
 Reorder,Nachbestellen,module,Magento_Sales
+"Save Gift Message","Geschenknachricht speichern",module,Magento_Sales
 "Invoice #%1 created","Rechnung #%1 erstellt",module,Magento_Sales
 "Comments History",Kommentarverlauf,module,Magento_Sales
 "Order History",Auftragsverlauf,module,Magento_Sales
@@ -3687,6 +3693,7 @@ Sales,Verkäufe,module,Magento_Sales
 "You saved the order status.","Sie haben den Bestellstatus gespeichert.",module,Magento_Sales
 "We can't add the order status right now.","Der Bestellstatus konnte nicht hinzugefügt werden.",module,Magento_Sales
 "Can't unhold order.","Die Bestellung konnte nicht freigegeben werden.",module,Magento_Sales
+"Something went wrong while saving the gift message.","Speichern der Geschenknachricht fehlgeschlagen.",module,Magento_Sales
 "We can't void the payment right now.","Die Zahlung kann nicht annulliert werden.",module,Magento_Sales
 "We can't update the transaction details.","Die Transaktiondetails konnten nicht aktualisiert werden.",module,Magento_Sales
 "Orders and Returns","Bestellungen und Rücksendungen",module,Magento_Sales
@@ -3846,6 +3853,7 @@ Comment,Kommentar,module,Magento_Sales
 "Transaction Type","Transaktions Art",module,Magento_Sales
 "Created At","Erstellt am",module,Magento_Sales
 Items,Artikel,module,Magento_Sales
+"Gift Message for this Order","Geschenknachricht für diese Bestellung",module,Magento_Sales
 "Find Order By","Finde Bestellung durch",module,Magento_Sales
 "ZIP Code",Postleitzahl,module,Magento_Sales
 Continue,Fortsetzen,module,Magento_Sales
@@ -3862,6 +3870,7 @@ Close,Schließen,module,Magento_Sales
 "<span class=""label"">Order Date:</span> %1","<span class=""label"">Bestelldatum:</span> %1",module,Magento_Sales
 "Qty Shipped","Versandte Menge",module,Magento_Sales
 "View All","Alle anzeigen",module,Magento_Sales
+"Gift Message for This Order","Geschenknachricht für diese Bestellung",module,Magento_Sales
 "Add to Cart","In den Warenkorb",module,Magento_Sales
 Search,Suche,module,Magento_Sales
 "Search Term",Suchbegriff,module,Magento_Search
@@ -5174,7 +5183,7 @@ Comma-separated.,"Durch Kommata getrennt.",module,Magento_Catalog
 "Products per Page on List Default Value","Artikel pro Seite (Standardwerte Werte für Liste)",module,Magento_Catalog
 "Use Flat Catalog Category","Flache Kategorien-Tabelle nutzen",module,Magento_Catalog
 "Use Flat Catalog Product","Flache Produkt-Tabelle nutzen",module,Magento_Catalog
-"Product Listing Sort by","Artikelauflistung sortiert nach",module,Magento_Catalog
+"Product Listing Sort by","Artikelliste sortiert nach",module,Magento_Catalog
 "Allow All Products per Page","Erlaube alle Artikel pro Seite",module,Magento_Catalog
 "Product Image Placeholders","Platzhalter für Artikelbilder",module,Magento_Catalog
 "Search Engine Optimization",Suchmaschinenoptimierung,module,Magento_Catalog
@@ -5198,6 +5207,7 @@ Watermark,Wasserzeichen,module,Magento_Catalog
 "Product Price",Produktpreis,module,Magento_Catalog
 "Index product prices","Indizierung von Artikel-Preisen",module,Magento_Catalog
 "Product EAV","Produkt EAV",module,Magento_Catalog
+"List of Products that are set as New","Liste von Artikeln die als neu gekennzeichnet sind",module,Magento_Catalog
 "Display Type",Darstellungsart,module,Magento_Catalog
 "All products","Alle Artikel",module,Magento_Catalog
 "New products","Neue Produkte",module,Magento_Catalog
@@ -5226,7 +5236,7 @@ Set,Einrichten,module,Magento_Catalog
 "Change status","Status ändern",module,Magento_Catalog
 Enable,Aktivieren,module,Magento_Catalog
 Disable,Deaktivieren,module,Magento_Catalog
-"Update attributes","Merkmale aktualisieren",module,Magento_Catalog
+"Update attributes","Attribute aktualisieren",module,Magento_Catalog
 none,keine,module,Magento_Catalog
 Overview,Übersicht,module,Magento_Catalog
 "Enable Terms and Conditions","Allgemeine Geschäftsbedingungen aktivieren",module,Magento_CheckoutAgreements
@@ -5516,7 +5526,7 @@ Updated,Aktualisiert,module,Magento_Indexer
 "Integration configuration file.",Integrationskonfigurationsdatei.,module,Magento_Integration
 "Integrations API configuration file.",Integrationen-API-Konfigurationsdatei.,module,Magento_Integration
 "No Integrations Found","Keine Integrationen gefunden",module,Magento_Integration
-"Layered Navigation","Erweiterte Navigation",module,Magento_LayeredNavigation
+"Layered Navigation",Filternavigation,module,Magento_LayeredNavigation
 "Display Product Count","Produkt-Anzahl anzeigen",module,Magento_LayeredNavigation
 "Price Navigation Step Calculation",Preisnavigationsschritt-Berechnung,module,Magento_LayeredNavigation
 "Default Price Navigation Step",Standard-Preisnavigationsschritt,module,Magento_LayeredNavigation
