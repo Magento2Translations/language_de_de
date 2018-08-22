@@ -977,7 +977,7 @@ Products,Artikel,module,Magento_Catalog
 "1 item","1 Artikel",module,Magento_Catalog
 "%1 items","%1 Artikel",module,Magento_Catalog
 "Invalid attribute %1","Ungültiges Attribut %1",module,Magento_Catalog
-Grid,Liste,module,Magento_Catalog
+Grid,Raster,module,Magento_Catalog
 List,Liste,module,Magento_Catalog
 All,Alle,module,Magento_Catalog
 "Product is not loaded","Produkt nicht geladen",module,Magento_Catalog
@@ -3360,10 +3360,10 @@ by,von,module,Magento_Rule
 "Perform following actions","Durchführen folgender Aktionen",module,Magento_Rule
 is,ist,module,Magento_Rule
 "is not","ist nicht",module,Magento_Rule
-"equals or greater than","kleiner gleich als",module,Magento_Rule
-"equals or less than","gleich oder kleiner als",module,Magento_Rule
+"equals or greater than","größer gleich als",module,Magento_Rule
+"equals or less than","kleiner gleich als",module,Magento_Rule
 "greater than","größer als",module,Magento_Rule
-"less than","weniger als",module,Magento_Rule
+"less than","kleiner als",module,Magento_Rule
 contains,enthält,module,Magento_Rule
 "does not contain","enthält nicht",module,Magento_Rule
 "is one of","kleiner als",module,Magento_Rule
@@ -3495,10 +3495,10 @@ FOUND,GEFUNDEN,module,Magento_SalesRule
 "total amount",Gesamtsumme,module,Magento_SalesRule
 is,ist,module,Magento_SalesRule
 "is not","ist nicht",module,Magento_SalesRule
-"equals or greater than","kleiner gleich als",module,Magento_SalesRule
-"equals or less than","gleich oder kleiner als",module,Magento_SalesRule
+"equals or greater than","größer gleich als",module,Magento_SalesRule
+"equals or less than","kleiner gleich als",module,Magento_SalesRule
 "greater than","größer als",module,Magento_SalesRule
-"less than","weniger als",module,Magento_SalesRule
+"less than","kleiner als",module,Magento_SalesRule
 "is one of","ist eines von",module,Magento_SalesRule
 "is not one of","ist nicht eines von",module,Magento_SalesRule
 "Some coupons are invalid.","Einige Rabattcodes sind ungültig.",module,Magento_SalesRule
@@ -3575,7 +3575,7 @@ Quantity,Menge,module,Magento_Sales
 "Refund Shipping","Versandkosten erstatten",module,Magento_Sales
 "Update Qty's","Menge aktualisieren",module,Magento_Sales
 Refund,Erstatten,module,Magento_Sales
-"Refund Offline",Betrag,module,Magento_Sales
+"Refund Offline","Erstattung (offline)",module,Magento_Sales
 "Paid Amount","Bezahlter Betrag",module,Magento_Sales
 "Refund Amount",Erstattungsbetrag,module,Magento_Sales
 "Shipping Amount",Versandbetrag,module,Magento_Sales
@@ -3640,6 +3640,9 @@ Invoice,Rechnung,module,Magento_Sales
 Ship,Versand,module,Magento_Sales
 Reorder,Nachbestellen,module,Magento_Sales
 "Save Gift Message","Geschenknachricht speichern",module,Magento_Sales
+"Order Credit Memos","Gutschriften der Bestellung",module,Magento_Sales
+"Credit memo #%1 created","Gutschrift #%1 erstellt",module,Magento_Sales
+"Credit memo #%1 comment added","Kommentar zu Gutschrift #%1 hinzugefügt",module,Magento_Sales
 "Invoice #%1 created","Rechnung #%1 erstellt",module,Magento_Sales
 "Comments History",Kommentarverlauf,module,Magento_Sales
 "Order History",Auftragsverlauf,module,Magento_Sales
@@ -3683,9 +3686,17 @@ Sales,Verkäufe,module,Magento_Sales
 "New Order","Neue Bestellung",module,Magento_Sales
 "You created the order.","Sie haben die Bestellung erstellt.",module,Magento_Sales
 "Order saving error: %1","Fehler beim Speichern der Bestellung: %1",module,Magento_Sales
+"The credit memo has been canceled.","Die Gutschrift wurde storniert.",module,Magento_Sales
+"Credit memo has not been canceled.","Die Rechnungskorrektur wurde nicht storniert.",module,Magento_Sales
+"New Memo for #%1","Neue Gutschrift für #%1",module,Magento_Sales
+"New Memo","Neue Gutschrift",module,Magento_Sales
 "The credit memo's total must be positive.","Die Summe der Rechnungskorrektur muss positiv sein.",module,Magento_Sales
+"You created the credit memo.","Sie haben die Gutschrift erstellt.",module,Magento_Sales
 "We can't save the credit memo right now.","Die Rechnungskorrektur-E-Mail kann momentan nicht versandt werden.",module,Magento_Sales
 "We can't update the item's quantity right now.","Die Artikelmenge kann momentan nicht aktualisiert werden.",module,Magento_Sales
+"View Memo for #%1","Gutschrift für #%1 ansehen",module,Magento_Sales
+"View Memo","Gutschrift ansehen",module,Magento_Sales
+"You voided the credit memo.","Die Gutschrift wurde annulliert.",module,Magento_Sales
 "We can't void the credit memo.","Die Rechnungskorrektur kann nicht annulliert werden.",module,Magento_Sales
 "We can't create credit memo for the order.","Für die Bestellung kann keine Rechungskorrektur erstellt werden.",module,Magento_Sales
 "Edit Order","Bestellungen bearbeiten",module,Magento_Sales
@@ -5791,6 +5802,7 @@ Created,Erstellt,module,Magento_Sales
 "PDF Credit Memos","PDF Gutschriften",module,Magento_Sales
 "Purchase Point",Verkaufsort,module,Magento_Sales
 "Print Invoices","Rechnungen drucken",module,Magento_Sales
+"Print Credit Memos","Gutschriften drucken",module,Magento_Sales
 "Print All","Alle drucken",module,Magento_Sales
 "Purchase Date",Kaufdatum,module,Magento_Sales
 "Grand Total (Base)","Gesamtsumme (Basis)",module,Magento_Sales
