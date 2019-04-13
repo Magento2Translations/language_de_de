@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_de_de",
   "description": "German (Deutsch) Magento2 Language Pack (de_DE) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"
